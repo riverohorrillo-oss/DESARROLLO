@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.11.5)  10 MAR 2026 13:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.11.5)  10 MAR 2026 13:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -804,7 +804,7 @@ LaTeX Info: Redefining \% on input line 1.
 
  [1
 
-{C:/Users/ÁLVARO R.H/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] [3] (desarrollo.bbl) [4] (desarrollo.aux
+{C:/Users/ÁLVARO R.H/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] [3] [4] (desarrollo.bbl) [5] (desarrollo.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -816,17 +816,17 @@ Package rerunfilecheck Info: File `desarrollo.out' has not changed.
 (rerunfilecheck)             Checksum: 5A5CE0959CE345CB07F5178BC4595F5F;3764.
  ) 
 Here is how much of TeX's memory you used:
- 27348 strings out of 474486
- 502092 string characters out of 5740887
+ 27351 strings out of 474486
+ 502122 string characters out of 5740887
  1938542 words of memory out of 5000000
- 49079 multiletter control sequences out of 15000+600000
- 567616 words of font info for 73 fonts, out of 8000000 for 9000
+ 49080 multiletter control sequences out of 15000+600000
+ 567975 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,5n,93p,3373b,460s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/yhmath/yhcmex.pfb>
-Output written on desarrollo.pdf (4 pages, 125842 bytes).
+ 84i,6n,93p,3373b,459s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/yhmath/yhcmex.pfb>
+Output written on desarrollo.pdf (5 pages, 154933 bytes).
 PDF statistics:
- 193 PDF objects out of 1000 (max. 8388607)
- 31 named destinations out of 1000 (max. 500000)
+ 207 PDF objects out of 1000 (max. 8388607)
+ 32 named destinations out of 1000 (max. 500000)
  193 words of extra memory for PDF output out of 10000 (max. 10000000)
 

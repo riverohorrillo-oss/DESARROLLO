@@ -100,6 +100,21 @@ Finalmente, cabe destacar que, la combinatoria experimentó una transformación 
 \section{Técnicas básicas de recuento}
 
     \subsection{Principio de Adición}
+
+        Este principio desarrolla la siguiente idea: si se puede realizar una acción \(A\) de \(n\) formas distintas, y se puede realizar una acción \(B\) de \(m\) formas distintas, y \(A\) y \(B\) son excluyentes, es decir no pueden realizarse ambas acciones a la vez, entonces el número de formas de realizar la acción \(A\ \text{ó}\ B\) es \(n+m\).\\
+        Formalicemos dicho principio.
+
+        \textbf{Teorema:}
+        Sean \(A_1, \dots, A_n\) conjuntos tales que \(A_i \cap A_j = \emptyset,\ \text{cuando}\ i \neq j;\ i,j \in \left\{1,\dots,n\right\}\) entonces:
+
+        \begin{equation*}
+            \left|A_1 \cup \dots \cup A_n\right| = \left|A_1\right| + \left|A_2\right| + \cdots + \left|A_n\right|
+        \end{equation*}
+
+        \textit{\textbf{Demostración:}}
+        Procederemos por inducción. Sea entonces $n=2$. Sean $A_1, A_2$ con\\
+        $A_1 \cap A_2 = \emptyset$. Si $A_1$ y $A_2$ tienen $r$ y $k$ elementos respectivamente: $A_1 = \{a_1, a_2, \dots, a_r\}$ y $A_2 = \{b_1, b_2, \dots, b_k\}$, entonces $A_1 \cup A_2 = \{a_1, a_2, \dots, a_r, b_1, b_2, \dots, b_k\}$. Obviamente $|A_1 \cup A_2| = r + k$, y con ello $|A_1 \cup A_2| = |A_1| + |A_2|$. Supongámoslo cierto para $n$, y comprobémoslo para $n+1$. Sean $A_1, A_2, \dots, A_n, A_{n+1}$ disjuntos dos a dos, $A_i \cap A_j = \emptyset$, para todo $i, j \in \{1, 2, \dots, n, n+1\}, i \neq j$.$$A_1 \cup A_2 \cup \dots \cup A_n \cup A_{n+1} = (A_1 \cup A_2 \cup \dots \cup A_n) \cup A_{n+1}$$luego,$$\bigcup_{i=1}^{n+1} A_i = \left(\bigcup_{i=1}^n A_i\right) \cup A_{n+1}$$Pero $A_{n+1} \cap \left(\bigcup_{i=1}^n A_i\right) = \emptyset$ y si aplicamos además la hipótesis de inducción, resulta que:$$\left|\bigcup_{i=1}^{n+1} A_i\right| = \left|\bigcup_{i=1}^n A_i\right| + |A_{n+1}| = \sum_{i=1}^n |A_i| + |A_{n+1}| = \sum_{i=1}^{n+1} |A_i|$$
+
     \subsection{Principio de Multiplicación}
     \subsection{Principio del Palomar}
     \subsection{Principio de Inclusión-Exclusión o Principio de la Criba}
@@ -128,10 +143,7 @@ Finalmente, cabe destacar que, la combinatoria experimentó una transformación 
 
 \section{Resumen}
 
-<<<<<<< HEAD
 \newpage
-=======
->>>>>>> 2a4273471f9c09e8cc204e072a9f4297017a56b4
 
 \section{Conclusión}
 

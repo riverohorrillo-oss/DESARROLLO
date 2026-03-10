@@ -101,7 +101,7 @@ Finalmente, cabe destacar que, la combinatoria experimentó una transformación 
 
     \subsection{Principio de Adición}
 
-        Este principio desarrolla la siguiente idea: si se puede realizar una acción \(A\) de \(n\) formas distintas, y se puede realizar una acción \(B\) de \(m\) formas distintas, y \(A\) y \(B\) son excluyentes, es decir no pueden realizarse ambas acciones a la vez, entonces el número de formas de realizar la acción \(A\ \text{ó}\ B\) es \(n+m\).\\
+        Este principio desarrolla la siguiente idea: si se puede realizar una acción \(A\) de \(n\) formas distintas, y una acción \(B\) de \(m\) formas distintas, y \(A\) y \(B\) son excluyentes, es decir no pueden realizarse ambas acciones a la vez, entonces el número de formas de realizar la acción \(A\ \text{ó}\ B\) es \(n+m\).\\
         Formalicemos dicho principio.
 
         \textbf{Teorema:}
@@ -116,8 +116,20 @@ Finalmente, cabe destacar que, la combinatoria experimentó una transformación 
         $A_1 \cap A_2 = \emptyset$. Si $A_1$ y $A_2$ tienen $r$ y $k$ elementos respectivamente: $A_1 = \{a_1, a_2, \dots, a_r\}$ y $A_2 = \{b_1, b_2, \dots, b_k\}$, entonces $A_1 \cup A_2 = \{a_1, a_2, \dots, a_r, b_1, b_2, \dots, b_k\}$. Obviamente $|A_1 \cup A_2| = r + k$, y con ello $|A_1 \cup A_2| = |A_1| + |A_2|$. Supongámoslo cierto para $n$, y comprobémoslo para $n+1$. Sean $A_1, A_2, \dots, A_n, A_{n+1}$ disjuntos dos a dos, $A_i \cap A_j = \emptyset$, para todo $i, j \in \{1, 2, \dots, n, n+1\}, i \neq j$.$$A_1 \cup A_2 \cup \dots \cup A_n \cup A_{n+1} = (A_1 \cup A_2 \cup \dots \cup A_n) \cup A_{n+1}$$luego,$$\bigcup_{i=1}^{n+1} A_i = \left(\bigcup_{i=1}^n A_i\right) \cup A_{n+1}$$Pero $A_{n+1} \cap \left(\bigcup_{i=1}^n A_i\right) = \emptyset$ y si aplicamos además la hipótesis de inducción, resulta que:$$\left|\bigcup_{i=1}^{n+1} A_i\right| = \left|\bigcup_{i=1}^n A_i\right| + |A_{n+1}| = \sum_{i=1}^n |A_i| + |A_{n+1}| = \sum_{i=1}^{n+1} |A_i|$$
 
     \subsection{Principio de Multiplicación}
+
+        Este principio afirma que si tenemos una acción \(A\) que puede realizarse de \(n\) formas distintas, y una acción \(B\) de m formas distintas, y \(A\) y \(B\) son independientes, entonces se puede realizar la acción \(A\) y \(B\) de \(n \cdot m\) formas distintas.\\
+        De nuevo, formalicemos el principio.
+
+        \textbf{Teorema:}
+        Sean $A_1, \dots, A_n$ conjuntos no vacíos y finitos. Se cumple que:$$|A_1 \times A_2 \times \dots \times A_n| = |A_1| \cdot |A_2| \dots |A_n|$$denotando por $\times$ el producto cartesiano de los $A_i$.
+
+        \textbf{\textit{Demostración:}}
+        Procederemos por inducción. Sea $n=2$. Sean $A_1, A_2$ dos conjuntos finitos y no vacíos.Siendo $A_1 = \{a_1, a_2, \dots, a_r\}$ y $A_2 = \{b_1, b_2, \dots, b_k\}$. Por definición de producto cartesiano:$$A_1 \times A_2 = \{(a,b) : a \in A_1, b \in A_2\}$$O lo que es lo mismo:$$A_1 \times A_2 = \{(a_1,b_1), (a_1,b_2), \dots, (a_1,b_k), (a_2,b_1), \dots, (a_2,b_k), \dots, (a_r,b_1), \dots, (a_r,b_k)\}$$Es claro que para cada $i \in \{1, 2, \dots, r\}$, tendremos $(a_i,b_1), (a_i,b_2), \dots, (a_i,b_k)$, es decir, $k$ pares. Como esto se puede hacer con cada uno de los elementos de $A_1$, obtendremos $r \cdot k$ pares distintos. Por tanto:$$|A_1 \times A_2| = r \cdot k = |A_1| \cdot |A_2|$$Supongamos cierto para $n$. Consideremos $A_1, A_2, \dots, A_n, A_{n+1}$ en las condiciones del teorema. Sabemos que:$$A_1 \times A_2 \times \dots \times A_{n+1} = (A_1 \times A_2 \times \dots \times A_n) \times A_{n+1}$$y con ello, calculando su cardinal y aplicando la hipótesis de inducción, obtenemos:$$|A_1 \times A_2 \times \dots \times A_{n+1}| = |A_1 \times A_2 \times \dots \times A_n| \cdot |A_{n+1}| = \left( \prod_{i=1}^n |A_i| \right) \cdot |A_{n+1}| = \prod_{i=1}^{n+1} |A_i|$$
+
     \subsection{Principio del Palomar}
     \subsection{Principio de Inclusión-Exclusión o Principio de la Criba}
+
+        Este principio es una generalización de la regla de la suma para conjuntos que no son necesariamente disjuntos. De forma más intuitiva, nos permite determinar el tamaño de la unión de varios conjuntos si conocemos el tamaño de sus intersecciones.
 
 \section{Combinatoria}
 

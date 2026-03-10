@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1773132375.68171 "c:/Users/ÁLVARO R.H/Desktop/UNIVERSIDAD/CURSO 25-26/LAS MATEMÁTICAS EN LA ENSEÑANZA SECUNDARIA/TRABAJO ESTADÍTICA/DESARROLLO/desarrollo.tex" "desarrollo.pdf" "desarrollo" 1773132379.28806 0
+["pdflatex"] 1773136937.91894 "c:/Users/ÁLVARO R.H/Desktop/UNIVERSIDAD/CURSO 25-26/LAS MATEMÁTICAS EN LA ENSEÑANZA SECUNDARIA/TRABAJO ESTADÍTICA/DESARROLLO/desarrollo.tex" "desarrollo.pdf" "desarrollo" 1773136940.7975 0
   "C:/Users/ÁLVARO R.H/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1772563790 82165 3fda6b6075f4ababe2c97b6e5b66f47b ""
   "C:/Users/ÁLVARO R.H/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1762361302 24227914 c7344fccaec4f556aa5bbdc1e1f73e9c ""
   "C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -206,11 +206,11 @@
   "C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/tex/latex/yhmath/omxyhex.fd" 1584531306 433 6f009616205848d6bf5a6cf4ba5366c1 ""
   "C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/tex/latex/yhmath/yhmath.sty" 1584531306 4974 0d87ecb9c52cb398cf8866a2c0fb9d8d ""
-  "c:/Users/ÁLVARO R.H/Desktop/UNIVERSIDAD/CURSO 25-26/LAS MATEMÁTICAS EN LA ENSEÑANZA SECUNDARIA/TRABAJO ESTADÍTICA/DESARROLLO/desarrollo.tex" 1773132371 2964 865fc0a56fece0be3f5da48d6d2aaaad ""
-  "desarrollo.aux" 1773132379 3215 0c17cdba0abf522c108d3554f6cbe194 "pdflatex"
-  "desarrollo.out" 1773132379 3871 59bf195260b8a19e0bfb82343440ca11 "pdflatex"
-  "desarrollo.tex" 1773132371 2964 865fc0a56fece0be3f5da48d6d2aaaad ""
-  "desarrollo.toc" 1773132379 1978 0de2dae0f67e4cba37f17d34422b1857 "pdflatex"
+  "c:/Users/ÁLVARO R.H/Desktop/UNIVERSIDAD/CURSO 25-26/LAS MATEMÁTICAS EN LA ENSEÑANZA SECUNDARIA/TRABAJO ESTADÍTICA/DESARROLLO/desarrollo.tex" 1773136930 2996 684bf926fc887ce022ff297b602cdd3b ""
+  "desarrollo.aux" 1773136940 3332 b6340eb7e1bea726775d3644406670b4 "pdflatex"
+  "desarrollo.out" 1773136940 4009 d4be51f696a3673e59b3cecdb27e0238 "pdflatex"
+  "desarrollo.tex" 1773136930 2996 684bf926fc887ce022ff297b602cdd3b ""
+  "desarrollo.toc" 1773136940 2054 13eda6cbaa5d8916f7641d01d811d1be "pdflatex"
   (generated)
   "desarrollo.aux"
   "desarrollo.log"

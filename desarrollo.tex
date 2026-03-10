@@ -1,0 +1,118 @@
+% TIPO DE DOCUMENTO
+\documentclass[12pt]{article}
+
+% region PAQUETES QUE VAMOS A USAR
+\usepackage{amsmath}
+\usepackage{amssymb} 
+\usepackage[utf8]{inputenc} 
+\usepackage[spanish]{babel} 
+\usepackage{comment}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{emptypage}
+\usepackage{geometry}
+\usepackage{amsthm}
+\usepackage{url}
+\usepackage[colorlinks=true,linkcolor=]{hyperref}
+\usepackage[all]{xy}
+\usepackage{fancyhdr}
+\usepackage{pdfpages}
+\usepackage{lipsum}
+\usepackage{fix-cm}
+\usepackage{yhmath}
+\usepackage{multimedia}
+% endregion
+
+\usetikzlibrary{calc, arrows.meta, babel}
+
+% --- CONFIGURACIÓN DE ESPACIADO ENTRE PÁRRAFOS ---
+% Esto añade exactamente 1mm de espacio cada vez que dejas una línea en blanco (nuevo párrafo)
+\setlength{\parskip}{2mm}
+
+% region ABREVIATURAS
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\F}{\mathcal{F}}
+\newcommand{\A}{\mathcal{A}}
+% endregion
+
+% region DEFINIMOS LOS ENTORNOS
+\theoremstyle{definition}
+\newtheorem{definicion}{\textbf{Definición}}[section]
+\newtheorem{nota}{Nota}[section]
+\newtheorem*{nota*}{Nota}
+\theoremstyle{plain}
+\newtheorem{teorema}{Teorema}[section]
+\newtheorem*{teorema*}{Teorema}
+\theoremstyle{plain}
+\newtheorem{propiedad}{Propiedades}[section]
+\theoremstyle{definition}
+\newtheorem{definiciones}{Definiciones}[section]
+% endregion
+
+% --- MODIFICACIÓN DEL TÍTULO DEL ÍNDICE ---
+\renewcommand{\contentsname}{Índice General}
+
+% MÁRGENES DESEADOS
+\geometry{a4paper,left=2cm,right=2cm,top=2cm,bottom=2cm}
+
+% --- ARREGLO PARA FANCYHDR ---
+\setlength{\headheight}{16pt} 
+
+% INDENTACION
+\setlength{\parindent}{0pt} 
+
+%\input{archivos/variables.tex}
+
+% -------------------------------------------------------------------------------------------------------------------------------------------%
+
+\begin{document}
+
+%\input{archivos/cabecera.tex}
+
+\tableofcontents
+
+\newpage 
+
+\pagestyle{plain} 
+
+\section{Introducción}
+
+\section{Técnicas básicas de recuento}
+
+    \subsection{Principio de Adición}
+    \subsection{Principio de Multiplicación}
+    \subsection{Principio del Palomar}
+    \subsection{Principio de Inclusión-Exclusión o Principio de la Criba}
+
+\section{Combinatoria}
+
+    \subsection{Número factorial}
+    \subsection{Número combinatorio y sus propiedades}
+    \subsection{Triángulo de Pascal}
+
+\section{Permutaciones}
+
+    \subsection{Permutaciones sin repetición}
+    \subsection{Permutaciones circulares}
+    \subsection{Permutaciones con repetición}
+
+\section{Variaciones}
+
+    \subsection{Variaciones sin repetición}
+    \subsection{Variaciones con repetición}
+
+\section{Combinaciones}
+
+    \subsection{Combinaciones sin repetición}
+    \subsection{Combinaciones con repetición}
+
+\section{Resumen}
+
+\section{Conclusión}
+
+\section{Bibliografía}
+\end{document}

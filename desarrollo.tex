@@ -131,9 +131,60 @@ Finalmente, cabe destacar que, la combinatoria experimentó una transformación 
 
         Este principio es una generalización de la regla de la suma para conjuntos que no son necesariamente disjuntos. De forma más intuitiva, nos permite determinar el tamaño de la unión de varios conjuntos si conocemos el tamaño de sus intersecciones.
 
+        Tenemos que, para dos conjuntos finitos el principio establece que: \(A \cup B = |A| + |B| - |A \cap B|\).\\
+        En el caso general de \(n\) conjuntos finitos \(A_1, \dots, A_n\) el cardinal de la unión viene dado por la suma alternada de los cardinales de todas las posibles intersecciones:
+
+        $$\begin{aligned}
+            \left| \bigcup_{i=1}^n A_i \right| &= \sum_{i=1}^n |A_i| - \sum_{i,j : 1 \le i < j \le n} |A_i \cap A_j| \\
+            &\qquad + \sum_{i,j,k : 1 \le i < j < k \le n} |A_i \cap A_j \cap A_k| - \cdots + (-1)^{n+1} |A_1 \cap \cdots \cap A_n|
+        \end{aligned}$$
+
+        En contextos mas avanzados de combinatoria, a menudo es más útil calcular el número de elementos de un conjunto universal \(X\) que no cumplen ninguna de las propiedades de una serie \(P_1, \dots, P_m\).\\
+        De modo que, la siguiente versión es equivalente a la anterior por el paso al complementario, y se formaliza mediante el siguiente teorema:
+
+        \textbf{Teorema (Principio de Inclusión-Exclusión):}
+        El número de elementos de un conjunto $X$ que no cumplen ninguna de las propiedades en un conjunto $P$ de $m$ propiedades viene dado por:$$\sum_{S \subseteq [m]} (-1)^{|S|} N(S)$$Donde $N(S)$ representa el número de elementos que cumplen simultáneamente las propiedades indicadas por el índice $S$.
+        
+        \textbf{\textit{Demostración:}}
+        Procedemos por inducción sobre el número $m$ de propiedades. Si $m=1$, entonces la fórmula se reduce a $N(\emptyset) - N(\{1\})$. Esto es correcto, ya que establece simplemente que el número de elementos que no cumplen la propiedad $P_1$ es el número total de elementos menos el número de aquellos que sí cumplen la propiedad $P_1$. Supongamos ahora que se cumple para $m=k$ para algún $k \ge 1$ y consideremos el caso en que $m=k+1$. Sean $X' = \{x \in X : x \text{ cumple } P_{k+1}\}$ y $X'' = X \setminus X'$ (es decir, $X''$ es el conjunto de elementos que no cumplen $P_{k+1}$). Ahora, sea $Q = \{P_1, P_2, \dots, P_k\}$. Para cada subconjunto $S \subseteq [k]$, sea $N'(S)$ la cantidad de elementos de $X'$ que cumplen la propiedad $P_i$ para todo $i \in S$. Asimismo, sea $N''(S)$ la cantidad de elementos de $X''$ que cumplen la propiedad $P_i$ para cada $i \in S$. Obsérvese que $N(S) = N'(S) + N''(S)$ para cada $S \subseteq [k]$. Sea $X'_0$ el conjunto de elementos en $X'$ que no cumplen ninguna de las propiedades en $Q$ (en otras palabras, aquellos que cumplen únicamente $P_{k+1}$ de todas las propiedades $P$), y sea $X''_0$ el conjunto de elementos de $X''$ que no cumplen ninguna de las propiedades en $Q$ y, por lo tanto, ninguna de las propiedades en $P$. Por la hipótesis de inducción, sabemos que:$$|X'_0| = \sum_{S \subseteq [k]} (-1)^{|S|} N'(S) \quad \text{y} \quad |X''_0| = \sum_{S \subseteq [k]} (-1)^{|S|} N''(S)$$De lo anterior se deduce que:
+        
+        $$\begin{aligned}
+            |X''_0| &= \sum_{S \subseteq [k]} (-1)^{|S|} N''(S) \\
+            &= \sum_{S \subseteq [k]} (-1)^{|S|} (N(S) - N'(S)) \\
+            &= \sum_{S \subseteq [k]} (-1)^{|S|} N(S) + \sum_{S \subseteq [k]} (-1)^{|S|+1} N(S \cup \{k+1\}) \\
+            &= \sum_{S \subseteq [k+1]} (-1)^{|S|} N(S)
+        \end{aligned}$$
+
 \section{Combinatoria}
+    Como mencionamos anteriormente en la introducción, la combinatoria es la rama de las matemáticas que se encarga de estudiar las diferentes maneras en las que podemos organizar, ordenar o seleccionar los elementos de un conjunto siguiendo unas reglas específicas. Su objetivo es contar cuántas configuraciones son posibles, fijándose únicamente en la estructura del grupo y no en qué tipo de objetos estamos contando. 
+
+    Para trabajar con estas agrupaciones, solemos utilizar un conjunto de elementos que denotaremos como \(a_1,a_2, \dots, a_n\). En este contexto, manejamos dos conceptos clave: \(n\) (Cardinal del conjunto): Representa el número total de elementos disponibles, y \(k\) (Tamaño de la muestra): Representa el número de elementos que conforman cada agrupación específica.
+
+    Dependiendo de las reglas de formación, las configuraciones se clasifican en tres grandes familias: Variaciones, Permutaciones y Combinaciones. A su vez, estas se subdividen según la naturaleza de la selección:
+
+    \begin{enumerate}
+        \item Simples (o sin repetición): Cuando cada elemento del conjunto puede aparecer como máximo una vez en la configuración.
+        \item Con repetición: Cuando no existe restricción sobre el número de veces que un elemento puede ser seleccionado.
+    \end{enumerate}
+
+    Antes de formalizar estas estructuras, es imprescindible definir los números combinatorios y el concepto de factorial, que constituyen el lenguaje básico de la enumeración.
 
     \subsection{Número factorial}
+
+        El producto de los enteros positivos de 1 a \(n\), inclusive, ocurre con mucha frecuencia en matemáticas y por ello se representa por el símbolo especial \(n!\), que se lee “\(n\) factorial”. Es decir,
+
+        \begin{equation*}
+            n! = n \cdot (n-1) \cdot ... \cdot 3 \cdot 2 \cdot 1
+        \end{equation*}
+
+        En otras palabras, \(n!\) puede definirse así:
+
+        \begin{equation*}
+            1! = 1\ \text{y}\ n! = n \cdot (n-1)!
+        \end{equation*}
+        También es conveniente definir, por convenio, que \(0! = 1\).
+
+
     \subsection{Número combinatorio y sus propiedades}
     \subsection{Triángulo de Pascal}
 

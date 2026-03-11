@@ -4,9 +4,9 @@
 \contentsline {subsection}{\numberline {2.1}Principio de Adición}{2}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Principio de Multiplicación}{3}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Principio del Palomar}{3}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Principio de Inclusión-Exclusión o Principio de la Criba}{3}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.4}Principio de Inclusión-Exclusión o Principio de la Criba}{4}{subsection.2.4}%
 \contentsline {section}{\numberline {3}Combinatoria}{5}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Número factorial}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.1}Número factorial}{6}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Número combinatorio y sus propiedades}{6}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Triángulo de Pascal}{6}{subsection.3.3}%
 \contentsline {section}{\numberline {4}Permutaciones}{6}{section.4}%
@@ -20,4 +20,4 @@
 \contentsline {subsection}{\numberline {6.1}Combinaciones sin repetición}{6}{subsection.6.1}%
 \contentsline {subsection}{\numberline {6.2}Combinaciones con repetición}{6}{subsection.6.2}%
 \contentsline {section}{\numberline {7}Resumen}{6}{section.7}%
-\contentsline {section}{\numberline {8}Conclusión}{7}{section.8}%
+\contentsline {section}{\numberline {8}Conclusión}{6}{section.8}%

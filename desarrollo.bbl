@@ -1,13 +1,21 @@
 \begin{thebibliography}{1}
 
-\bibitem{marc2001}
-Seymour Lipschutz and Marc Lipson.
-\newblock {\em Probabilidad Segunda Edición}.
-\newblock Series Shawn, 2001.
+\bibitem{comb}
+Penazzi Daniel.
+\newblock {\em Notas sobre Combinatoria}.
+
+\bibitem{key}
+Jorge Morra.
+\newblock {\em Tema 3. Técnicas de recuento. Combinatoria}.
 
 \bibitem{kellerTrotter2017}
-Mitchel T.Keller and William T.Trotter.
+William T.Keller, Mitchel y~T.Trotter.
 \newblock {\em Applied Combinatorics}.
 \newblock Creative Commons, 2017.
+
+\bibitem{marc2001}
+Seymour~Lipschutz y~Marc~Lipson.
+\newblock {\em Probabilidad Segunda Edición}.
+\newblock Series Shawn, 2001.
 
 \end{thebibliography}

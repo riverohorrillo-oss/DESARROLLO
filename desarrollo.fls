@@ -313,6 +313,9 @@ INPUT C:\Users\ÁLVARO R.H\AppData\Local\Programs\MiKTeX\tex\generic\pgf\librari
 INPUT C:\Users\ÁLVARO R.H\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibraryarrows.meta.code.tex
 INPUT C:\Users\ÁLVARO R.H\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarybabel.code.tex
 INPUT C:\Users\ÁLVARO R.H\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarybabel.code.tex
+INPUT .\archivos\variables.tex
+INPUT .\archivos\variables.tex
+INPUT archivos\variables.tex
 INPUT .\desarrollo.aux
 INPUT .\desarrollo.aux
 INPUT desarrollo.aux
@@ -369,6 +372,21 @@ INPUT C:\Users\ÁLVARO R.H\AppData\Local\Programs\MiKTeX\tex\latex\pdflscape\pdf
 INPUT C:\Users\ÁLVARO R.H\AppData\Local\Programs\MiKTeX\tex\latex\pdflscape\pdflscape-nometadata.sty
 INPUT C:\Users\ÁLVARO R.H\AppData\Local\Programs\MiKTeX\tex\latex\graphics\lscape.sty
 INPUT C:\Users\ÁLVARO R.H\AppData\Local\Programs\MiKTeX\tex\latex\graphics\lscape.sty
+INPUT .\archivos\cabecera.tex
+INPUT .\archivos\cabecera.tex
+INPUT archivos\cabecera.tex
+INPUT .\logos\marca_UEx_4_color.png
+INPUT .\logos\marca_UEx_4_color.png
+INPUT .\logos\marca_UEx_4_color.png
+INPUT .\logos\marca_UEx_4_color.png
+INPUT .\logos\marca_UEx_4_color.png
+INPUT .\logos\marca_UEx_4_color.png
+INPUT .\logos\marca_UEx_4_color.png
+INPUT C:\Users\ÁLVARO R.H\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmcsc10.tfm
+INPUT C:\Users\ÁLVARO R.H\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmcsc10.tfm
+INPUT C:\Users\ÁLVARO R.H\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmcsc10.tfm
+INPUT C:\Users\ÁLVARO R.H\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmcsc10.tfm
+INPUT C:\Users\ÁLVARO R.H\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\ÁLVARO R.H\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\ÁLVARO R.H\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT .\desarrollo.toc
@@ -376,7 +394,6 @@ INPUT .\desarrollo.toc
 INPUT desarrollo.toc
 INPUT C:\Users\ÁLVARO R.H\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 OUTPUT desarrollo.toc
-INPUT C:\Users\ÁLVARO R.H\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\ÁLVARO R.H\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\ÁLVARO R.H\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\ÁLVARO R.H\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti12.tfm
@@ -393,6 +410,8 @@ INPUT C:\Users\ÁLVARO R.H\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsf
 INPUT C:\Users\ÁLVARO R.H\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\ÁLVARO R.H\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbxti10.pfb
 INPUT C:\Users\ÁLVARO R.H\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbxti10.pfb
+INPUT C:\Users\ÁLVARO R.H\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
+INPUT C:\Users\ÁLVARO R.H\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
 INPUT C:\Users\ÁLVARO R.H\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Users\ÁLVARO R.H\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Users\ÁLVARO R.H\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb

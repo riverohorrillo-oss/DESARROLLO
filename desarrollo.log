@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.11.5)  11 MAR 2026 11:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.11.5)  11 MAR 2026 18:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -689,7 +689,7 @@ File: tikzlibrarybabel.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \c@teorema=\count337
 \c@propiedad=\count338
 \c@definiciones=\count339
- (desarrollo.aux
+ (archivos/variables.tex) (desarrollo.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -795,16 +795,27 @@ Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-)) (desarrollo.toc
+)) (archivos/cabecera.tex
+<./logos/marca_UEx_4_color.png, id=95, 321.2pt x 2003.485pt>
+File: ./logos/marca_UEx_4_color.png Graphic file (type png)
+<use ./logos/marca_UEx_4_color.png>
+Package pdftex.def Info: ./logos/marca_UEx_4_color.png  used on input line 5.
+(pdftex.def)             Requested size: 96.36073pt x 601.05014pt.
+ [1
+
+{C:/Users/ÁLVARO R.H/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./logos/marca_UEx_4_color.png>]) (desarrollo.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
 \tf@toc=\write7
 \openout7 = `desarrollo.toc'.
 
- [1
 
-{C:/Users/ÁLVARO R.H/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] [3] [4] [5] [6] (desarrollo.bbl) [7] (desarrollo.aux
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.78 \newpage
+              [1] [2] [3] [4] [5] [6] (desarrollo.bbl) [7] (desarrollo.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -816,17 +827,17 @@ Package rerunfilecheck Info: File `desarrollo.out' has not changed.
 (rerunfilecheck)             Checksum: 5A5CE0959CE345CB07F5178BC4595F5F;3764.
  ) 
 Here is how much of TeX's memory you used:
- 27364 strings out of 474486
- 502329 string characters out of 5740887
+ 27410 strings out of 474486
+ 503673 string characters out of 5740887
  1941542 words of memory out of 5000000
- 49089 multiletter control sequences out of 15000+600000
- 567975 words of font info for 74 fonts, out of 8000000 for 9000
+ 49124 multiletter control sequences out of 15000+600000
+ 569179 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,8n,93p,3373b,460s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/yhmath/yhcmex.pfb>
-Output written on desarrollo.pdf (7 pages, 170857 bytes).
+ 84i,8n,93p,3373b,472s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/yhmath/yhcmex.pfb>
+Output written on desarrollo.pdf (8 pages, 207605 bytes).
 PDF statistics:
- 219 PDF objects out of 1000 (max. 8388607)
- 36 named destinations out of 1000 (max. 500000)
- 193 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 235 PDF objects out of 1000 (max. 8388607)
+ 38 named destinations out of 1000 (max. 500000)
+ 198 words of extra memory for PDF output out of 10000 (max. 10000000)
 

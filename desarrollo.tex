@@ -65,13 +65,13 @@
 % INDENTACION
 \setlength{\parindent}{0pt} 
 
-%\input{archivos/variables.tex}
+\input{archivos/variables.tex}
 
 % -------------------------------------------------------------------------------------------------------------------------------------------%
 
 \begin{document}
 
-%\input{archivos/cabecera.tex}
+\input{archivos/cabecera.tex}
 
 \tableofcontents
 
@@ -127,6 +127,18 @@ Finalmente, cabe destacar que, la combinatoria experimentó una transformación 
         Procederemos por inducción. Sea $n=2$. Sean $A_1, A_2$ dos conjuntos finitos y no vacíos.Siendo $A_1 = \{a_1, a_2, \dots, a_r\}$ y $A_2 = \{b_1, b_2, \dots, b_k\}$. Por definición de producto cartesiano:$$A_1 \times A_2 = \{(a,b) : a \in A_1, b \in A_2\}$$O lo que es lo mismo:$$A_1 \times A_2 = \{(a_1,b_1), (a_1,b_2), \dots, (a_1,b_k), (a_2,b_1), \dots, (a_2,b_k), \dots, (a_r,b_1), \dots, (a_r,b_k)\}$$Es claro que para cada $i \in \{1, 2, \dots, r\}$, tendremos $(a_i,b_1), (a_i,b_2), \dots, (a_i,b_k)$, es decir, $k$ pares. Como esto se puede hacer con cada uno de los elementos de $A_1$, obtendremos $r \cdot k$ pares distintos. Por tanto:$$|A_1 \times A_2| = r \cdot k = |A_1| \cdot |A_2|$$Supongamos cierto para $n$. Consideremos $A_1, A_2, \dots, A_n, A_{n+1}$ en las condiciones del teorema. Sabemos que:$$A_1 \times A_2 \times \dots \times A_{n+1} = (A_1 \times A_2 \times \dots \times A_n) \times A_{n+1}$$y con ello, calculando su cardinal y aplicando la hipótesis de inducción, obtenemos:$$|A_1 \times A_2 \times \dots \times A_{n+1}| = |A_1 \times A_2 \times \dots \times A_n| \cdot |A_{n+1}| = \left( \prod_{i=1}^n |A_i| \right) \cdot |A_{n+1}| = \prod_{i=1}^{n+1} |A_i|$$
 
     \subsection{Principio del Palomar}
+
+        Antes de introducir el conocido Principio del Palomar, debemos entender lo que es una función inyectiva.\\
+        Se dice que una función \(f:X \rightarrow Y\), donde \(X\) e \(Y\) son conjuntos arbitrarios, es inyectiva cuando \(f(x) \neq f(x')\) para todo \(x,x' \in X\) con \(x \neq x'\). Cuando \(f:X \rightarrow Y\) es inyectiva, debemos hacer notar que \(|X| \leq |Y|\). En cambio, tenemos la siguiente afirmación evidente, conocida popularmente como el Principio del Palomar.
+
+        \textbf{Proposición:}
+        Si \(f:X \rightarrow Y\) es una función y \(|X| > |Y|\), entonces existe un elemento \(y \in Y\) y elementos distintos \(x,x' \in X\) tales que \(f(x) = f(x') = y\).
+
+        Hablando coloquialmente, si tenemos que repartir \(n+1\) palomas en \(n\) nidos, entonces tenemos que poner dos palomas en el mismo nido.
+
+        \textbf{\textit{Demostración:}}
+        Vamos a demostrarlo por reducción al absurdo.Supongamos que la conclusión es falsa; es decir, supongamos que para todo elemento $y \in Y$, existe como máximo un elemento $x \in X$ tal que $f(x) = y$. Por definición, esto significa que la función $f$ es inyectiva (no hay dos elementos distintos en $X$ que tengan la misma imagen en $Y$). Como $f$ es una función bien definida, cada elemento del dominio $X$ se mapea a un único elemento en el codominio $Y$. Si además $f$ es inyectiva, cada elemento de $X$ ocupa un elemento distinto de $Y$. Por lo tanto, la cantidad de elementos en $X$ no puede exceder la cantidad de elementos en $Y$, lo que implica que:$$|X| \leq |Y|$$Sin embargo, esto contradice directamente nuestra hipótesis inicial, la cual establece que $|X| > |Y|$. Dado que hemos llegado a una contradicción, nuestra suposición inicial debe ser falsa. Por lo tanto, concluimos que debe existir al menos un $y \in Y$ al cual se mapean dos elementos distintos $x, x' \in X$, es decir, $f(x) = f(x') = y$.
+
     \subsection{Principio de Inclusión-Exclusión o Principio de la Criba}
 
         Este principio es una generalización de la regla de la suma para conjuntos que no son necesariamente disjuntos. De forma más intuitiva, nos permite determinar el tamaño de la unión de varios conjuntos si conocemos el tamaño de sus intersecciones.
@@ -206,9 +218,9 @@ Finalmente, cabe destacar que, la combinatoria experimentó una transformación 
 
 \section{Resumen}
 
-\newpage
-
 \section{Conclusión}
+
+\newpage
 
 % Elige el estilo de la bibliografía (plain, alpha, apalike, ieeetr, etc.)
 

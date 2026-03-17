@@ -198,7 +198,28 @@ Finalmente, cabe destacar que, la combinatoria experimentó una transformación 
 
 
     \subsection{Número combinatorio y sus propiedades}
-    \subsection{Triángulo de Pascal}
+        \subsubsection{Coeficientes binomiales}
+
+            El símbolo \(\binom{n}{r}\), donde \(n\) y \(r\) son enteros positivos con \(r \leq n\), se define de la siguiente manera:
+
+            \begin{equation*}
+                \binom{n}{r} = \frac{n!}{r! \cdot (n-r)!}
+            \end{equation*}
+
+            Obsérvese que \(n-(n-r) = r\) esto produce la siguiente relación importante:
+
+            \textbf{Lema:}
+            \(\binom{n}{n-r} = \binom{n}{r}\) o, equivalentemente, \(\binom{n}{a} = \binom{n}{b}\), donde \(a+b = n\).
+
+            \textit{Observación:}
+            Con base a la segunda fórmula para \(\binom{n}{r}\) y el hecho de que \(0! = 1\), se define: \(\binom{n}{0} = \frac{n!}{0!n!} = 1\) y, en particular, \(\binom{0}{0} = \frac{0!}{0!0!} = 1\).
+
+            Los números \(\binom{n}{r}\) se denominan coeficientes binomiales puesto que estos aparecen como coeficientes en la expansión de \((a+b)^n\). Especificamente, el Teorema del Binomio da la expresión general para la expansión de \((a+b)^n\).
+
+            \textbf{Teorema:}
+            Sean \(a\) y \(b\) dos número reales cualesquiera, y sea n un número natural, tenemos la siguiente expresión:
+
+        \subsubsection{Triángulo de Pascal}
 
 \section{Permutaciones}
 
@@ -208,10 +229,42 @@ Finalmente, cabe destacar que, la combinatoria experimentó una transformación 
 
 \section{Variaciones}
 
+    En lenguaje usual, variar significa: ''hacer que una cosa sea diferente en algo de lo que antes era". En matemáticas, la palabra variación tiene una acepción mucho más precisa; brevemente, una variación de una familia de elementos es una modificación de alguno de sus elementos o del orden en que se presentan.
+
     \subsection{Variaciones sin repetición}
+
+            Se desea formar un comité de aula para la organización de un evento cultural en un colegio. Dicho comité está formado por tres alumnos que harían las veces de delegado, vocal y secretario. La clase está formada por 40 alumnos. Nos planteamos resolver la siguiente cuestión: ¿de cuántas formas puede constituirse el comité si una persona no puede ocupar más que un cargo?
+
+            Como un estudiante no puede tener más que un cargo, el delegado
+            podría ser elegido entre los 40 alumnos de la clase; una vez qué este ha sido elegido, el cargo de vocal podría ser tomado por uno de los 39 alumnos restantes; por último, el cargo de secretario puede ser tomado por uno de los 38 alumnos restantes. Es decir, existen 40 · 39 · 38 formas de constituir el
+            comité.
+
+            El método descrito puede ser extendido para deteminar el número de
+            comités de k estudiantes que se pueden formar en un aula de n estudiantes
+            \((n \geq k)\):
+
+            \begin{equation*}
+                n \cdot (n-1) \cdots [n-(k-2)] \cdot [n-(k-1)] = \frac{n!}{(n-k)!}
+            \end{equation*}
+
+            \textbf{Definición (Variaciones sin repetición):}
+            Se llaman \textbf{variaciones ordinarias o sin repetición} de \(n\) elementos, tomados de \(k\) en \(k\), y se denota \(V_{n,k}\), a los distintos grupos que se pueden formar con los \(n\) elementos,
+            de tal forma que en cada grupo entren \(k\) elementos distintos y que un grupo se diferencie de los demás, bien en alguno de sus elementos, bien en su orden de colocación. Se tiene:
+
+            \begin{equation*}
+                V_{n,k} = \frac{n!}{(n-k)!}
+            \end{equation*}
+
     \subsection{Variaciones con repetición}
 
+        Supongamos ahora que una misma persona puede ocupar más de un cargo, esto es, una persona puede ser a la vez vocal y delegado, por ejemplo. Esta situación no es artificial: muchas veces una misma persona ocupa más de un cargo dentro de una institución. Por ejemplo, profesor y coordinador de ciencias, alumno y miembro de la banda de música del colegio, etc. Nos planteamos, entonces, resolver la siguiente cuestión: si en un aula hay $n$ estudiantes, ¿de cuántas formas puede constituirse un comité de $k$ estudiantes si una persona puede ocupar más que un cargo? Antes de resolver el problema general planteado, volvamos a nuestro caso particular: 3 cargos deben ser ocupados por alguno de los 40 estudiantes que conforman un aula. Como un estudiante sí puede tener más que un cargo, el delegado podrá ser elegido entre los 40 alumnos de la clase; una vez que este ha sido elegido, el cargo de vocal podrá ser tomado por uno cualquiera de los estudiantes, incluido el delegado electo; por último, el cargo de secretario puede ser tomado igualmente por cualquiera de los 40 estudiantes. Es decir, existen $40 \cdot 40 \cdot 40$ formas de constituir el comité.Al igual que en la anterior situación, el método descrito puede ser extendido para determinar el número de comités de $k$ estudiantes que se pueden formar en un aula de $n$ estudiantes ($n \geq k$), pudiendo un alumno tener más de un cargo: $\underbrace{n \cdot n \cdot \ldots \cdot n}_{k \text{ veces}} = n^k$ comités diferentes. En general, se define:
+        
+        \textbf{Definición (Variaciones con repetición):}
+        Se llaman \textbf{variaciones con repetición} de $n$ elementos, tomados de $k$ en $k$, que denotaremos $VR_{n,k}$, a los distintos grupos que se pueden formar con los $n$ elementos, de tal manera que en cada grupo entren $k$ elementos iguales o distintos y que un grupo se diferencie de los demás, bien en algún elemento o bien en su orden de colocación. Se tiene: $$VR_{n,k} = n^k$$
+
 \section{Combinaciones}
+
+    En lenguaje común, combinar es: ''unir cosas diversas, de manera que formen un compuesto". Al igual que las variaciones y las permutaciones, el concepto de combinación tiene un significado muy concreto en matemáticas: brevemente, número de conjuntos de un determinado número de elementos que se pueden formar con un universo de objetos, sin importar el orden de selección, sino qué elementos se toman.
 
     \subsection{Combinaciones sin repetición}
     \subsection{Combinaciones con repetición}

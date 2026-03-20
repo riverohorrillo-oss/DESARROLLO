@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.11.5)  17 MAR 2026 13:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.11.5)  20 MAR 2026 13:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -815,7 +815,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
 <to be read again> 
                    \relax 
 l.78 \newpage
-              [1] [2] [3] [4] [5] [6] [7] [8] (desarrollo.bbl) [9] (desarrollo.aux
+              [1] [2] [3] [4] [5] [6] [7] [8]
+<Captura de pantalla 2026-03-20 134656.png, id=178, 1096.095pt x 755.07094pt>
+File: Captura de pantalla 2026-03-20 134656.png Graphic file (type png)
+<use Captura de pantalla 2026-03-20 134656.png>
+Package pdftex.def Info: Captura de pantalla 2026-03-20 134656.png  used on input line 306.
+(pdftex.def)             Requested size: 290.22107pt x 199.92001pt.
+ [9 <./Captura de pantalla 2026-03-20 134656.png>] (desarrollo.bbl) [10] (desarrollo.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -827,17 +833,17 @@ Package rerunfilecheck Info: File `desarrollo.out' has not changed.
 (rerunfilecheck)             Checksum: DBD7B3BCBB7E9F1D61B35A49EC9D7277;3960.
  ) 
 Here is how much of TeX's memory you used:
- 27426 strings out of 474486
- 503885 string characters out of 5740887
+ 27443 strings out of 474486
+ 504354 string characters out of 5740887
  1940542 words of memory out of 5000000
- 49135 multiletter control sequences out of 15000+600000
+ 49149 multiletter control sequences out of 15000+600000
  569516 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,9n,93p,3373b,472s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\ÁLVARO R.H\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/yhmath/yhcmex.pfb>
-Output written on desarrollo.pdf (10 pages, 221869 bytes).
+Output written on desarrollo.pdf (11 pages, 351251 bytes).
 PDF statistics:
- 254 PDF objects out of 1000 (max. 8388607)
- 42 named destinations out of 1000 (max. 500000)
- 206 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 263 PDF objects out of 1000 (max. 8388607)
+ 45 named destinations out of 1000 (max. 500000)
+ 211 words of extra memory for PDF output out of 10000 (max. 10000000)
 

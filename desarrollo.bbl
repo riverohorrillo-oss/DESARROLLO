@@ -1,9 +1,5 @@
 \begin{thebibliography}{1}
 
-\bibitem{comb}
-Penazzi Daniel.
-\newblock {\em Notas sobre Combinatoria}.
-
 \bibitem{ugr}
 Universidad de~Granada.
 \newblock {\em Combinatoria y Probabilidad}.
@@ -12,14 +8,28 @@ Universidad de~Granada.
 Jorge Morra.
 \newblock {\em Tema 3. Técnicas de recuento. Combinatoria}.
 
-\bibitem{kellerTrotter2017}
-William T.Keller, Mitchel y~T.Trotter.
-\newblock {\em Applied Combinatorics}.
-\newblock Creative Commons, 2017.
+\bibitem{com}
+Joy Morris.
+\newblock {\em Combinatorics}.
+\newblock University of Lethbridge, 2011.
+
+\bibitem{comb}
+Daniel Penazzi.
+\newblock {\em Notas sobre Combinatoria}.
+
+\bibitem{dis}
+Kenneth~H. Rosen.
+\newblock {\em Discrete Mathematics and Its Applications}.
+\newblock McGraw-Hill, 2012.
 
 \bibitem{marc2001}
 Seymour~Lipschutz y~Marc~Lipson.
 \newblock {\em Probabilidad Segunda Edición}.
 \newblock Series Shawn, 2001.
+
+\bibitem{kellerTrotter2017}
+Mitchel~T.Keller y~William~T.Trotter.
+\newblock {\em Applied Combinatorics}.
+\newblock Creative Commons, 2017.
 
 \end{thebibliography}

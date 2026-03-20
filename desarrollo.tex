@@ -240,7 +240,7 @@ Finalmente, cabe destacar que, la combinatoria experimentó una transformación 
             comité.
 
             El método descrito puede ser extendido para deteminar el número de
-            comités de k estudiantes que se pueden formar en un aula de n estudiantes
+            comités de k estudiantes que se pueden formar en un aula de \(n\) estudiantes
             \((n \geq k)\):
 
             \begin{equation*}
@@ -267,13 +267,52 @@ Finalmente, cabe destacar que, la combinatoria experimentó una transformación 
     En lenguaje común, combinar es: ''unir cosas diversas, de manera que formen un compuesto". Al igual que las variaciones y las permutaciones, el concepto de combinación tiene un significado muy concreto en matemáticas: brevemente, número de conjuntos de un determinado número de elementos que se pueden formar con un universo de objetos, sin importar el orden de selección, sino qué elementos se toman.
 
     \subsection{Combinaciones sin repetición}
+
+        En el problema de la formación de los comités de aula, el orden de elección de los estudiantes es relevante, puesto que los cargos de delegado, vocal y secretario no son equiparables. Sin embargo, si el comité está formado por tres personas que desempeñarán cargos similares, entonces no es relevante que un estudiante sea elegido en primer, segundo o tercer lugar, sino el hecho mismo de haber sido elegido. Como se ha visto, si el orden de elección es importante (y un alumno no puede tener sino un cargo), existen $40 \cdot 39 \cdot 38$ formas de constituir los comités, pero si el orden no importa, hay que dividir esta cantidad por $6$, puesto que dados $3$ estudiantes, podemos organizarlos de $6$ formas distintas ($P_3$). Así, existen $\frac{40 \cdot 39 \cdot 38}{6}$ formas de organizar los comités si los tres integrantes van a desempeñar labores similares.
+
+        \textbf{Definición (Combinaciones sin repetición):}
+        Se llaman \textbf{combinaciones ordinarias o sin repetición} de \(n\) elementos, tomados de \(k\) en \(k\), y lo denotaremos \(C_{n,k}\), a los diferentes conjuntos de \(k\) elementos distintos, esto es, un conjunto se diferencia de los demás en, al menos, un elemento (no importa el orden de colocación o selección). Se tiene:
+
+        \begin{equation*}
+            C_{n,k} = \frac{V_{n,k}}{P_k} = \binom{n}{k} = \frac{n!}{(n-k)! \cdot k!}
+        \end{equation*}
+
     \subsection{Combinaciones con repetición}
+
+        En las combinaciones, no importa el orden de selección de los individuos, puesto que todos van a desempeñar la misma función: ¿tiene sentido que una persona ocupe dos cargos cuyas funciones son las mismas? El problema no parece tener mucho interés, puesto que si una persona ocupa dos cargos que son iguales, diremos, sencillamente, que debe trabajar ``el doble''. Planteamos a continuación una situación que precisa contar el número de combinaciones con repetición.
+
+        Uno de los logros científicos más importantes de la última década es el descubrimiento del genoma humano. Se sabe que los caracteres hereditarios dependen de los genes que cada sujeto recibe de sus antecesores. El caso más simple, se tiene cuando un gen puede tomar únicamente dos modalidades distintas $A$ y $a$, que se llaman dominante y recesivo, respectivamente. De esta forma, este tipo de genes forman tres tipos de genotipos: $AA$, $Aa$, $aa$ (el genotipo $aA$ es igual al $Aa$). En caso de tener genomas dominantes \(A,\ B,\ \text{y}\ C\) y recesivos \(a,\ b,\ \text{y}\ c\), ¿cuántas combinaciones de pares de genomas podemos obtener?
+
+        Es fácil ver que tenemos 6 elementos en total y que las combinaciones \(Aa = aA,\ Bb = bB,\dots\) dan un mismo objetos, si los tomamos de dos en dos:
+
+        \begin{equation*}
+            "Combinaciones\ de\ pares\ de\ genomas" = \binom{6 + 2 - 1}{2} = \binom{7}{2} = 21
+        \end{equation*}
+
+        \textbf{Definición (Combinaciones con repetición):}
+        Se llaman \textbf{combinaciones con repetición} de  orden \(n\) a una lista no ordenada \(\left\{a_1,...,a_k\right\}\) de \(k\) elementos, no necesariamente distintos, es decir, una lista se diferencia de otra en los elementos que contienen. Se tiene que:
+
+        \begin{equation*}
+            CR_n^k = \binom{n+k-1}{k}
+        \end{equation*}
+
+
+
 
 \section{Resumen}
 
+    \begin{figure}[h]
+        \centering
+           \includegraphics[width=0.6\textwidth]{Captura de pantalla 2026-03-20 134656.png}
+        \end{figure}
+
 \section{Conclusión}
 
-\newpage
+    A	lo	largo	del	tema	hemos	definido	distintas	técnicas	de	recuento,	desde	las	que	utilizamos	en	
+    nuestro	día	a	día	para	conocer	el	número	de	elementos	de	un	conjunto	pequeño,	hasta	técnicas	más	
+    complejas	como	son	las	permutaciones,	combinaciones	y	variaciones,	de	distintos	tipos,	teniendo	en	
+    cuenta	si	es	posible	o	no	la	repetición	de	elementos.	Para	desarrollarlo,	hemos	visto	qué	es	un	número	
+    combinatorio	y	un	número	factorial,	así	como	una	serie	de	propiedades.	Cabe	destacar	la	utilidad	del	triángulo	de	Pascal	y	el	Binomio	de	Newton,	que	tanto	utilizaremos	en	la	asignatura	de	Matemáticas.
 
 % Elige el estilo de la bibliografía (plain, alpha, apalike, ieeetr, etc.)
 

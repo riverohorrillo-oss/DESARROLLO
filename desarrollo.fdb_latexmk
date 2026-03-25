@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex desarrollo"] 1774010974.36756 "desarrollo.aux" "desarrollo.bbl" "desarrollo" 1774010979.04254 0
+["bibtex desarrollo"] 1774459635.08392 "desarrollo.aux" "desarrollo.bbl" "desarrollo" 1774459638.95124 0
   "./bibliografia.bib" 1774010500 940 f164d23f2f0181025ad4044778284541 ""
   "C:/Users/Ã�LVARO R.H/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/plain.bst" 0 -1 0 ""
-  "desarrollo.aux" 1774010978 3449 553865ef0146a95a0452af60f47064ba "pdflatex"
+  "desarrollo.aux" 1774459638 3456 e1e6672ec5b858886ab47fad3e6ae06b "pdflatex"
   (generated)
   "desarrollo.bbl"
   "desarrollo.blg"
   (rewritten before read)
-["pdflatex"] 1774010974.68132 "c:/Users/ÁLVARO R.H/Desktop/UNIVERSIDAD/CURSO 25-26/LAS MATEMÁTICAS EN LA ENSEÑANZA SECUNDARIA/TRABAJO ESTADÍTICA/DESARROLLO/desarrollo.tex" "desarrollo.pdf" "desarrollo" 1774010979.04314 0
+["pdflatex"] 1774459635.33326 "c:/Users/ÁLVARO R.H/Desktop/UNIVERSIDAD/CURSO 25-26/LAS MATEMÁTICAS EN LA ENSEÑANZA SECUNDARIA/TRABAJO ESTADÍTICA/DESARROLLO/desarrollo.tex" "desarrollo.pdf" "desarrollo" 1774459638.95172 0
   "C:/Users/ÁLVARO R.H/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1772563790 82165 3fda6b6075f4ababe2c97b6e5b66f47b ""
   "C:/Users/ÁLVARO R.H/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1770923115 14064 a4eb07817b5e3c7ebf21920846c6d72c ""
   "C:/Users/ÁLVARO R.H/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1762361302 24227914 c7344fccaec4f556aa5bbdc1e1f73e9c ""
@@ -49,12 +49,16 @@
   "C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb" 1247596667 32001 6aeea3afe875097b1eb0da29acd61e28 ""
   "C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1247596667 30251 6afa5cb1d0204815a708a080681d4674 ""
   "C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1247596667 36741 0ee9e374ec3e30da87cdfb0ea3575226 ""
+  "C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb" 1247596666 37166 8ab3487cbe3ab49ebce74c29ea2418db ""
   "C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1247596666 35469 dcf3a5f2fc1862f5952e3ee5eb1d98c4 ""
   "C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1247596667 32722 d7379af29a190c3f453aba36302ff5a9 ""
+  "C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1247596667 32734 69e00a6b65cedb993666e42eedb3d48f ""
   "C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1247596667 32726 39f0f9e62e84beb801509898a605dbd5 ""
   "C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb" 1247596667 32587 65067f817f408bc71a7312f3d9828a9b ""
   "C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1247596667 32626 5abc8bb2f28aa647d4c70f8ea38cc0d3 ""
   "C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb" 1247596667 36118 fad905eba93cff5bce1e185fe980a177 ""
+  "C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1247596673 34694 870c211f62cb72718a00e353f14f254d ""
   "C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/yhmath/yhcmex.pfb" 1548297500 29149 255c816a3ea115011c5f5da65478689c ""
   "C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/vf/public/yhmath/yhcmex10.vf" 1584439855 2112 d9f61c10dc1066e46e90384e3419c5ee ""
   "C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mkii" 1580390158 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -232,14 +236,15 @@
   "C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/tex/latex/yhmath/omxyhex.fd" 1584531306 433 6f009616205848d6bf5a6cf4ba5366c1 ""
   "C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/tex/latex/yhmath/yhmath.sty" 1584531306 4974 0d87ecb9c52cb398cf8866a2c0fb9d8d ""
   "Captura de pantalla 2026-03-20 134656.png" 1774010816 186361 ecef63d194de92c18c7505acf592d465 ""
+  "Captura de pantalla 2026-03-25 180219.png" 1774458139 108667 c0600e29ba91c23f6c47dfb749898da8 ""
   "archivos/cabecera.tex" 1771872293 557 dc88edefbb0d700f820091af811181ac ""
   "archivos/variables.tex" 1771872330 412 ed7a8353114b53f98334734fe7c200ad ""
-  "c:/Users/ÁLVARO R.H/Desktop/UNIVERSIDAD/CURSO 25-26/LAS MATEMÁTICAS EN LA ENSEÑANZA SECUNDARIA/TRABAJO ESTADÍTICA/DESARROLLO/desarrollo.tex" 1774010969 26096 b570576334c6f2f03a2dc1d56ab60bd7 ""
-  "desarrollo.aux" 1774010978 3449 553865ef0146a95a0452af60f47064ba "pdflatex"
-  "desarrollo.bbl" 1774010974 823 b5cb5791f204891932ed96b93f3c3012 "bibtex desarrollo"
-  "desarrollo.out" 1774010978 3960 dbd7b3bcbb7e9f1d61b35a49ec9d7277 "pdflatex"
-  "desarrollo.tex" 1774010969 26096 b570576334c6f2f03a2dc1d56ab60bd7 ""
-  "desarrollo.toc" 1774010978 2019 200577ab569f9aa116ea464b6176c0f2 "pdflatex"
+  "c:/Users/ÁLVARO R.H/Desktop/UNIVERSIDAD/CURSO 25-26/LAS MATEMÁTICAS EN LA ENSEÑANZA SECUNDARIA/TRABAJO ESTADÍTICA/DESARROLLO/desarrollo.tex" 1774459630 34688 1504fd307bef4df3627f59f58c580aa9 ""
+  "desarrollo.aux" 1774459638 3456 e1e6672ec5b858886ab47fad3e6ae06b "pdflatex"
+  "desarrollo.bbl" 1774459635 823 b5cb5791f204891932ed96b93f3c3012 "bibtex desarrollo"
+  "desarrollo.out" 1774459638 3960 dbd7b3bcbb7e9f1d61b35a49ec9d7277 "pdflatex"
+  "desarrollo.tex" 1774459630 34688 1504fd307bef4df3627f59f58c580aa9 ""
+  "desarrollo.toc" 1774459638 2026 769b15cb9a29294ba31158fb85d289cc "pdflatex"
   "logos/marca_UEx_4_color.png" 1762866769 49122 a3295554180dc3519f27e091b52d732f ""
   (generated)
   "desarrollo.aux"

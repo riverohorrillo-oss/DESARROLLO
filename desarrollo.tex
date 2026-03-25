@@ -101,7 +101,7 @@ Finalmente, cabe destacar que, la combinatoria experimentó una transformación 
 
     \subsection{Principio de Adición}
 
-        Este principio desarrolla la siguiente idea: si se puede realizar una acción \(A\) de \(n\) formas distintas, y una acción \(B\) de \(m\) formas distintas, y \(A\) y \(B\) son excluyentes, es decir no pueden realizarse ambas acciones a la vez, entonces el número de formas de realizar la acción \(A\ \text{ó}\ B\) es \(n+m\).\\
+        Este principio desarrolla la siguiente idea: si se puede realizar una acción \(A\) de \(n\) formas distintas, y una acción \(B\) de \(m\) formas distintas, y \(A\) y \(B\) son excluyentes, es decir no pueden realizarse ambas acciones a la vez, entonces el número de formas de realizar la acción \(A\ \text{o}\ B\) es \(n+m\).\\
         Formalicemos dicho principio.
 
         \textbf{Teorema:}
@@ -117,7 +117,7 @@ Finalmente, cabe destacar que, la combinatoria experimentó una transformación 
 
     \subsection{Principio de Multiplicación}
 
-        Este principio afirma que si tenemos una acción \(A\) que puede realizarse de \(n\) formas distintas, y una acción \(B\) de m formas distintas, y \(A\) y \(B\) son independientes, entonces se puede realizar la acción \(A\) y \(B\) de \(n \cdot m\) formas distintas.\\
+        Este principio afirma que si tenemos una acción \(A\) que puede realizarse de \(n\) formas distintas, y una acción \(B\) de \(m\) formas distintas, y \(A\) y \(B\) son independientes, entonces se puede realizar la acción \(A\) y \(B\) de \(n \cdot m\) formas distintas.\\
         De nuevo, formalicemos el principio.
 
         \textbf{Teorema:}
@@ -211,21 +211,107 @@ Finalmente, cabe destacar que, la combinatoria experimentó una transformación 
             \textbf{Lema:}
             \(\binom{n}{n-r} = \binom{n}{r}\) o, equivalentemente, \(\binom{n}{a} = \binom{n}{b}\), donde \(a+b = n\).
 
-            \textit{Observación:}
+            \textbf{Observación:}
             Con base a la segunda fórmula para \(\binom{n}{r}\) y el hecho de que \(0! = 1\), se define: \(\binom{n}{0} = \frac{n!}{0!n!} = 1\) y, en particular, \(\binom{0}{0} = \frac{0!}{0!0!} = 1\).
 
-            Los números \(\binom{n}{r}\) se denominan coeficientes binomiales puesto que estos aparecen como coeficientes en la expansión de \((a+b)^n\). Especificamente, el Teorema del Binomio da la expresión general para la expansión de \((a+b)^n\).
+            Los números \(\binom{n}{r}\) se denominan coeficientes binomiales puesto que estos aparecen como coeficientes en la expansión de \((a+b)^n\). Específicamente, el Teorema del Binomio da la expresión general para la expansión de \((a+b)^n\).
 
-            \textbf{Teorema:}
+            \textbf{Teorema (Teorema Binomial):}
             Sean \(a\) y \(b\) dos número reales cualesquiera, y sea n un número natural, tenemos la siguiente expresión:
+
+            \begin{equation*}
+                (a+b)^n = \sum_{r=0}^{n} \binom{n}{r} a^rb^{n-r}
+            \end{equation*}
+
+            Un caso especial de esta expresión, es el siguiente:
+
+            \begin{equation*}
+                (1+x)^n = \sum_{r=0}^{n} \binom{n}{r} x^r
+            \end{equation*}
+
+            \textit{\textbf{Demostración:}}
+            Consideremos la expresión $(a+b)^n$ como el producto de $n$ factores binómicos: $$(a+b)^n = \prod_{i=1}^n (a+b)_i = (a+b)_1(a+b)_2 \cdots (a+b)_n$$Al realizar el desarrollo de este producto mediante la propiedad distributiva, cada término del sumatorio final se obtiene seleccionando exactamente uno de los dos sumandos ($a$ o $b$) de cada uno de los $n$ factores. Un término genérico de este desarrollo tendrá la forma $a^r b^{n-r}$, lo cual implica que se ha seleccionado el elemento $a$ en exactamente $r$ de los $n$ factores disponibles, y consecuentemente se ha seleccionado el elemento $b$ en los $n-r$ factores restantes. El coeficiente del término $a^r b^{n-r}$ vendrá determinado por el número de formas distintas en que podemos elegir los $r$ factores de los cuales extraeremos la variable $a$. Por definición de coeficiente binomial, el número de subconjuntos de tamaño $r$ que pueden extraerse de un conjunto de $n$ elementos (en este caso, el conjunto de los $n$ paréntesis) es $\binom{n}{r}$. Por tanto, sumando todas las posibilidades para cada valor posible de $r$ desde $0$ hasta $n$, obtenemos la expresión:$$(a+b)^n = \binom{n}{0}b^n + \binom{n}{1}ab^{n-1} + \cdots + \binom{n}{n}a^n = \sum_{r=0}^n \binom{n}{r} a^r b^{n-r}.$$Si ahora definimos $a=x$ y $b=1$, obtenemos:$$(x+1)^n = \sum_{r=0}^n \binom{n}{r} x^r \cdot 1^{n-r}$$y dado que el elemento unidad $1$ elevado a cualquier potencia entera $n-r$ es igual a $1$, y considerando la conmutatividad de la suma en $\mathbb{R}$ tal que $(x+1)^n = (1+x)^n$, la expresión queda simplificada como:$$(1+x)^n = \sum_{r=0}^n \binom{n}{r} x^r.$$
+
+            \textbf{Corolario:}
+            Para cualquier número natural \(n\), tenemos que:
+
+            \begin{equation*}
+                \sum_{r=0}^{n} \binom{n}{r} = 2^n
+            \end{equation*}
+
+            \textit{\textbf{Demostración:}}
+            Es consecuencia inmediata de sustituir \(a=b=1\) en el Teorema Binomial.
+
+            \textbf{Corolario:}
+            Para cualquier número natural \(n\), se tiene que:
+
+            \begin{equation*}
+                \sum_{r=0}^{n} \binom{n}{r} (-1)^{r-1}= (-1)^{r-1}=0
+            \end{equation*}
+
+            \textit{\textbf{Demostración:}}
+            Del caso especial del Teorema Binomial, teniamos que \((1+x)^n = \sum_{r=0}^{n} \binom{n}{r} x^r\).
+
+            Si ahora derivamos la expresión anterior obtenemos que \(n(1+x)^{n-1} = \sum_{r=0}^{n} r \binom{n}{r} x^{r-1}\). Basta sustituir \(x = -1\) y obtenemos el resultado del enunciado.
 
         \subsubsection{Triángulo de Pascal}
 
+            El Triángulo de Pascal es una disposición triangular infinita de números enteros. Su regla de construcción es increíblemente sencilla:La cúspide: El triángulo comienza con un único número $1$ en la parte superior (considerada la fila $0$).Los bordes: Todos los números en los extremos izquierdo y derecho del triángulo son siempre $1$.El interior: Cualquier otro número dentro del triángulo se obtiene sumando los dos números que tiene justo encima.Visualmente, las primeras cinco filas (desde $n=0$ hasta $n=4$) se ven así:
+
+            $$\begin{matrix}
+                & & & & 1 & & & & \\
+                & & & 1 & & 1 & & & \\
+                & & 1 & & 2 & & 1 & & \\
+                & 1 & & 3 & & 3 & & 1 & \\
+                1 & & 4 & & 6 & & 4 & & 1
+            \end{matrix}$$
+
+            Por ejemplo, el $6$ de la última fila se obtiene sumando el $3$ y el $3$ que están justo por encima de él.
+            
+            Dicha estructura tiene una gran relación con los coeficientes binomiales. Introduzcamos una de las más importantes.
+
+            \textbf{Teorema (Identidad de Pascal):}
+            Sean \(n\) y \(k\) enteros positivos con \(n \geq k\). Entonces:
+
+            \begin{equation*}
+                \binom{n+1}{k} = \binom{n}{k-1} = \binom{n}{k}
+            \end{equation*}
+            
+            \textit{\textbf{Demostración:}}
+            Utilizaremos una demostración combinatoria. Supongamos que $T$ es un conjunto que contiene $n+1$ elementos. Sea $a$ un elemento de $T$, y sea $S=T-\{a\}$. Notemos que existen $\binom{n+1}{k}$ subconjuntos de $T$ que contienen $k$ elementos. Sin embargo, un subconjunto de $T$ con $k$ elementos o bien contiene a $a$ junto con $k-1$ elementos de $S$, o bien contiene $k$ elementos de $S$ y no contiene a $a$. Dado que existen $\binom{n}{k-1}$ subconjuntos de $k-1$ elementos de $S$, hay exactamente $\binom{n}{k-1}$ subconjuntos de $k$ elementos de $T$ que sí contienen a $a$. Por otro lado, hay exactamente $\binom{n}{k}$ subconjuntos de $k$ elementos de $T$ que no contienen a $a$, porque equivalen a elegir $k$ elementos directamente del conjunto $S$ (el cual tiene $n$ elementos). Consecuentemente:$$\binom{n+1}{k} = \binom{n}{k-1} + \binom{n}{k}$$
+
+            \begin{figure}[ht]
+            \centering
+                \includegraphics[width=0.8\textwidth]{Captura de pantalla 2026-03-25 180219.png}
+            \end{figure}
+
+            \textbf{Observación:} La identidad de Pascal, junto con las condiciones iniciales $\binom{n}{0} = \binom{n}{n} = 1$ para todo entero $n$, permite definir los coeficientes binomiales de forma recursiva.
+
+            Esta definición recursiva resulta de gran utilidad para el cálculo de dichos coeficientes, ya que para aplicarla solo se requiere la operación de suma de enteros, prescindiendo de la multiplicación.
+
+            La identidad de Pascal constituye la base de una disposición geométrica de los coeficientes binomiales en forma de triángulo, como se ilustra en la figura anterior. La $n$-ésima fila de este triángulo está compuesta por los coeficientes binomiales: $\binom{n}{k}$, con $k=0,1,\dots,n$.
+
+            Este esquema se conoce como el triángulo de Pascal. La identidad de Pascal demuestra que, al sumar dos coeficientes binomiales adyacentes en este triángulo, se obtiene como resultado el coeficiente binomial de la fila siguiente situado entre ambos.
+
 \section{Permutaciones}
+    Genéricamente, permutar es: “variar la disposición u orden en que estaban dos o más cosas”. Es necesario precisar si estas cosas son o no indistinguibles, para asegurar que la nueva configuración sea en esencia distinta a la antigua.
 
     \subsection{Permutaciones sin repetición}
+
+        \textbf{Definición (Permutaciones sin repetición):}
+        Se llaman \textbf{permutaciones ordinarias o sin repetición} de \(n\) elementos, que denotaremos por \(P_n\), a los distintos grupos que se pueden formar, de tal manera que en cada grupo entren los \(n\) elementos y que un grupo se diferencie de los demás en el orden de colocación de los elementos. Además se tiene que: $$P_n=n!$$ 
+        
+        Esto es así, pues sabemos que el número de ordenaciones posibles que se pueden obtener con \(n\),\((n \geq 2)\) objetos distintos es el producto de los \(n\) primeros términos, y este producto es lo que denotamos como factorial de \(n\).
+
     \subsection{Permutaciones circulares}
+        \textbf{Definición (Permutaciones circulares sin repetición):}
+        Se llaman \textbf{permutaciones circulares} (sin repetición) de \(n\) elementos, denotaremos \(PC_n\), a los distintos grupos que se pueden formar, de tal manera que en cada grupo entren los \(n\) elementos y que un grupo se diferencie de los demás en la posición relativa de los elementos unos respecto a los otros. Además se tiene que $$PC_n=(n-1)!$$
+
+        
     \subsection{Permutaciones con repetición}
+
+        \textbf{Definición (Permutaciones con repetición):}
+        Se llaman \textbf{permutaciones con repetición} de $n$ elementos, distribuidos en $k$ grupos de $a_1, a_2, \dots, a_{k-1}, a_k$ elementos indistinguibles, respectivamente, de tal forma que $a_1 + a_2 + \dots + a_{k-1} + a_k = n$, a las distintas configuraciones que se pueden formar con los $n$ elementos, de tal forma que cada una de ellas se diferencie de las demás en el orden de colocación de sus elementos, excluyendo las reordenaciones de elementos indistinguibles (esto es, que pertenecen a un mismo grupo). Si se denota por $PR_{n}^{a_1, a_2, \dots, a_{k-1}, a_k}$ a este número, se tiene que:$$PR_{n}^{a_1, a_2, \dots, a_{k-1}, a_k} = \frac{n!}{a_1! \cdot a_2! \cdot \dots \cdot a_{k-1}! \cdot a_k!}$$
 
 \section{Variaciones}
 
@@ -296,15 +382,12 @@ Finalmente, cabe destacar que, la combinatoria experimentó una transformación 
             CR_n^k = \binom{n+k-1}{k}
         \end{equation*}
 
-
-
-
 \section{Resumen}
 
-    \begin{figure}[h]
+    \begin{figure}[ht]
         \centering
-           \includegraphics[width=0.6\textwidth]{Captura de pantalla 2026-03-20 134656.png}
-        \end{figure}
+           \includegraphics[width=1\textwidth]{Captura de pantalla 2026-03-20 134656.png}
+    \end{figure}
 
 \section{Conclusión}
 
@@ -313,6 +396,8 @@ Finalmente, cabe destacar que, la combinatoria experimentó una transformación 
     complejas	como	son	las	permutaciones,	combinaciones	y	variaciones,	de	distintos	tipos,	teniendo	en	
     cuenta	si	es	posible	o	no	la	repetición	de	elementos.	Para	desarrollarlo,	hemos	visto	qué	es	un	número	
     combinatorio	y	un	número	factorial,	así	como	una	serie	de	propiedades.	Cabe	destacar	la	utilidad	del	triángulo	de	Pascal	y	el	Binomio	de	Newton,	que	tanto	utilizaremos	en	la	asignatura	de	Matemáticas.
+
+\newpage
 
 % Elige el estilo de la bibliografía (plain, alpha, apalike, ieeetr, etc.)
 

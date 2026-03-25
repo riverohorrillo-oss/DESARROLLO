@@ -81,11 +81,11 @@
 
 \section{Introducción}
 
-La combinatoria es una rama fundamental de las matemáticas que se ocupa del estudio de las diversas formas de organizar y contar los elementos de un conjunto bajo restricciones específicas. Centrándose en relaciones lógicas y estructurales entre los elementos, independientemente de su naturaleza física.
+La combinatoria es una rama fundamental de las matemáticas que se ocupa del estudio de las diversas formas de organizar y contar los elementos de un conjunto bajo restricciones específicas, centrándose en relaciones lógicas y estructurales entre los elementos, independientemente de su naturaleza física.
 
-El desarrollo formal de la combinatoria moderna se remonta al siglo XVII con los estudios sobre probabilidad de Fermat y Pascal. Siendo este último, el primero en establecer la relación intrínseca que existe entre los números combinatorios y el desarrollo de las potencias de un binomio, popularizando lo que hoy se conoce como el Triángulo de Pascal.
+El desarrollo formal de la combinatoria moderna se remonta al siglo XVII con los estudios sobre probabilidad de Fermat y Pascal, siendo este último el primero en establecer la relación intrínseca que existe entre los números combinatorios y el desarrollo de las potencias de un binomio, popularizando lo que hoy se conoce como el Triángulo de Pascal.
 
-De forma simultánea, será Leibniz, quién, en 1666, sentará las bases teóricas de las permutaciones y combinaciones. No obstante, el salto hacia una teoría general lo dará  Bernoulli, pues fue él quien sistematizó el uso de las combinaciones aplicadas al cálculo de probabilidades y quien demostró formalmente  el Teorema binomial para exponentes enteros positivos:
+De forma simultánea, será Leibniz, quien, en 1666, sentará las bases teóricas de las permutaciones y combinaciones. No obstante, el salto hacia una teoría general lo dará  Bernoulli, pues fue él quien sistematizó el uso de las combinaciones aplicadas al cálculo de probabilidades y quien demostró formalmente  el Teorema binomial para exponentes enteros positivos:
 
 \begin{equation*}
     (a+b)^n = \sum_{k=0}^{n} \binom{n}{k} a^{n-k}b^k
@@ -93,7 +93,7 @@ De forma simultánea, será Leibniz, quién, en 1666, sentará las bases teóric
 
 Posteriormente, fue Euler quien expande los horizontes de la disciplina mediante el estudio de las particiones de números enteros (escribir un número natural como suma de otros), introduciendo el uso de las funciones generatrices, una herramienta que transformó la combinatoria en una disciplina con métodos analíticos profundos.
 
-Finalmente, cabe destacar que, la combinatoria experimentó una transformación profunda en el siglo XX. Gracias a figuras como Erdös, pasó de ser una  colección de problemas aislados a convertirse en una disciplina central de la matemática moderna, con aplicaciones cruciales en la informática teórica, la optimización y la teoría de grafos.
+Finalmente, cabe destacar que, la combinatoria experimentó una transformación profunda en el siglo XX. Gracias a figuras como Erd\H{o}s, pasó de ser una  colección de problemas aislados a convertirse en una disciplina central de la matemática moderna, con aplicaciones cruciales en la informática teórica, la optimización y la teoría de grafos.
 
 
 
@@ -124,7 +124,7 @@ Finalmente, cabe destacar que, la combinatoria experimentó una transformación 
         Sean $A_1, \dots, A_n$ conjuntos no vacíos y finitos. Se cumple que:$$|A_1 \times A_2 \times \dots \times A_n| = |A_1| \cdot |A_2| \dots |A_n|$$denotando por $\times$ el producto cartesiano de los $A_i$.
 
         \textbf{\textit{Demostración:}}
-        Procederemos por inducción. Sea $n=2$. Sean $A_1, A_2$ dos conjuntos finitos y no vacíos.Siendo $A_1 = \{a_1, a_2, \dots, a_r\}$ y $A_2 = \{b_1, b_2, \dots, b_k\}$. Por definición de producto cartesiano:$$A_1 \times A_2 = \{(a,b) : a \in A_1, b \in A_2\}$$O lo que es lo mismo:$$A_1 \times A_2 = \{(a_1,b_1), (a_1,b_2), \dots, (a_1,b_k), (a_2,b_1), \dots, (a_2,b_k), \dots, (a_r,b_1), \dots, (a_r,b_k)\}$$Es claro que para cada $i \in \{1, 2, \dots, r\}$, tendremos $(a_i,b_1), (a_i,b_2), \dots, (a_i,b_k)$, es decir, $k$ pares. Como esto se puede hacer con cada uno de los elementos de $A_1$, obtendremos $r \cdot k$ pares distintos. Por tanto:$$|A_1 \times A_2| = r \cdot k = |A_1| \cdot |A_2|$$Supongamos cierto para $n$. Consideremos $A_1, A_2, \dots, A_n, A_{n+1}$ en las condiciones del teorema. Sabemos que:$$A_1 \times A_2 \times \dots \times A_{n+1} = (A_1 \times A_2 \times \dots \times A_n) \times A_{n+1}$$y con ello, calculando su cardinal y aplicando la hipótesis de inducción, obtenemos:$$|A_1 \times A_2 \times \dots \times A_{n+1}| = |A_1 \times A_2 \times \dots \times A_n| \cdot |A_{n+1}| = \left( \prod_{i=1}^n |A_i| \right) \cdot |A_{n+1}| = \prod_{i=1}^{n+1} |A_i|$$
+        Procederemos por inducción. Sea $n=2$. Sean $A_1, A_2$ dos conjuntos finitos y no vacíos. Siendo $A_1 = \{a_1, a_2, \dots, a_r\}$ y $A_2 = \{b_1, b_2, \dots, b_k\}$. Por definición de producto cartesiano:$$A_1 \times A_2 = \{(a,b) : a \in A_1, b \in A_2\}$$O lo que es lo mismo:$$A_1 \times A_2 = \{(a_1,b_1), (a_1,b_2), \dots, (a_1,b_k), (a_2,b_1), \dots, (a_2,b_k), \dots, (a_r,b_1), \dots, (a_r,b_k)\}$$Es claro que para cada $i \in \{1, 2, \dots, r\}$, tendremos $(a_i,b_1), (a_i,b_2), \dots, (a_i,b_k)$, es decir, $k$ pares. Como esto se puede hacer con cada uno de los elementos de $A_1$, obtendremos $r \cdot k$ pares distintos. Por tanto:$$|A_1 \times A_2| = r \cdot k = |A_1| \cdot |A_2|$$Supongamos cierto para $n$. Consideremos $A_1, A_2, \dots, A_n, A_{n+1}$ en las condiciones del teorema. Sabemos que:$$A_1 \times A_2 \times \dots \times A_{n+1} = (A_1 \times A_2 \times \dots \times A_n) \times A_{n+1}$$y con ello, calculando su cardinal y aplicando la hipótesis de inducción, obtenemos:$$|A_1 \times A_2 \times \dots \times A_{n+1}| = |A_1 \times A_2 \times \dots \times A_n| \cdot |A_{n+1}| = \left( \prod_{i=1}^n |A_i| \right) \cdot |A_{n+1}| = \prod_{i=1}^{n+1} |A_i|$$
 
     \subsection{Principio del Palomar}
 
@@ -137,7 +137,7 @@ Finalmente, cabe destacar que, la combinatoria experimentó una transformación 
         Hablando coloquialmente, si tenemos que repartir \(n+1\) palomas en \(n\) nidos, entonces tenemos que poner dos palomas en el mismo nido.
 
         \textbf{\textit{Demostración:}}
-        Vamos a demostrarlo por reducción al absurdo.Supongamos que la conclusión es falsa; es decir, supongamos que para todo elemento $y \in Y$, existe como máximo un elemento $x \in X$ tal que $f(x) = y$. Por definición, esto significa que la función $f$ es inyectiva (no hay dos elementos distintos en $X$ que tengan la misma imagen en $Y$). Como $f$ es una función bien definida, cada elemento del dominio $X$ se mapea a un único elemento en el codominio $Y$. Si además $f$ es inyectiva, cada elemento de $X$ ocupa un elemento distinto de $Y$. Por lo tanto, la cantidad de elementos en $X$ no puede exceder la cantidad de elementos en $Y$, lo que implica que:$$|X| \leq |Y|$$Sin embargo, esto contradice directamente nuestra hipótesis inicial, la cual establece que $|X| > |Y|$. Dado que hemos llegado a una contradicción, nuestra suposición inicial debe ser falsa. Por lo tanto, concluimos que debe existir al menos un $y \in Y$ al cual se mapean dos elementos distintos $x, x' \in X$, es decir, $f(x) = f(x') = y$.
+        Vamos a demostrarlo por reducción al absurdo. Supongamos que la conclusión es falsa; es decir, supongamos que para todo elemento $y \in Y$, existe como máximo un elemento $x \in X$ tal que $f(x) = y$. Por definición, esto significa que la función $f$ es inyectiva (no hay dos elementos distintos en $X$ que tengan la misma imagen en $Y$). Como $f$ es una función bien definida, cada elemento del dominio $X$ se mapea a un único elemento en el codominio $Y$. Si además $f$ es inyectiva, cada elemento de $X$ ocupa un elemento distinto de $Y$. Por lo tanto, la cantidad de elementos en $X$ no puede exceder la cantidad de elementos en $Y$, lo que implica que:$$|X| \leq |Y|$$Sin embargo, esto contradice directamente nuestra hipótesis inicial, la cual establece que $|X| > |Y|$. Dado que hemos llegado a una contradicción, nuestra suposición inicial debe ser falsa. Por lo tanto, concluimos que debe existir al menos un $y \in Y$ al cual se mapean dos elementos distintos $x, x' \in X$, es decir, $f(x) = f(x') = y$.
 
     \subsection{Principio de Inclusión-Exclusión o Principio de la Criba}
 
@@ -151,7 +151,7 @@ Finalmente, cabe destacar que, la combinatoria experimentó una transformación 
             &\qquad + \sum_{i,j,k : 1 \le i < j < k \le n} |A_i \cap A_j \cap A_k| - \cdots + (-1)^{n+1} |A_1 \cap \cdots \cap A_n|
         \end{aligned}$$
 
-        En contextos mas avanzados de combinatoria, a menudo es más útil calcular el número de elementos de un conjunto universal \(X\) que no cumplen ninguna de las propiedades de una serie \(P_1, \dots, P_m\).\\
+        En contextos más avanzados de combinatoria, a menudo es más útil calcular el número de elementos de un conjunto universal \(X\) que no cumplen ninguna de las propiedades de una serie \(P_1, \dots, P_m\).\\
         De modo que, la siguiente versión es equivalente a la anterior por el paso al complementario, y se formaliza mediante el siguiente teorema:
 
         \textbf{Teorema (Principio de Inclusión-Exclusión):}
@@ -206,7 +206,7 @@ Finalmente, cabe destacar que, la combinatoria experimentó una transformación 
                 \binom{n}{r} = \frac{n!}{r! \cdot (n-r)!}
             \end{equation*}
 
-            Obsérvese que \(n-(n-r) = r\) esto produce la siguiente relación importante:
+            Obsérvese que \(n-(n-r) = r\). Esto produce la siguiente relación importante:
 
             \textbf{Lema:}
             \(\binom{n}{n-r} = \binom{n}{r}\) o, equivalentemente, \(\binom{n}{a} = \binom{n}{b}\), donde \(a+b = n\).
@@ -217,7 +217,7 @@ Finalmente, cabe destacar que, la combinatoria experimentó una transformación 
             Los números \(\binom{n}{r}\) se denominan coeficientes binomiales puesto que estos aparecen como coeficientes en la expansión de \((a+b)^n\). Específicamente, el Teorema del Binomio da la expresión general para la expansión de \((a+b)^n\).
 
             \textbf{Teorema (Teorema Binomial):}
-            Sean \(a\) y \(b\) dos número reales cualesquiera, y sea n un número natural, tenemos la siguiente expresión:
+            Sean \(a\) y \(b\) dos números reales cualesquiera, y sea \(n\) un número natural, tenemos la siguiente expresión:
 
             \begin{equation*}
                 (a+b)^n = \sum_{r=0}^{n} \binom{n}{r} a^rb^{n-r}
@@ -243,20 +243,34 @@ Finalmente, cabe destacar que, la combinatoria experimentó una transformación 
             Es consecuencia inmediata de sustituir \(a=b=1\) en el Teorema Binomial.
 
             \textbf{Corolario:}
-            Para cualquier número natural \(n\), se tiene que:
+            Para cualquier número natural positivo \(n\), se tiene que:
 
             \begin{equation*}
-                \sum_{r=0}^{n} \binom{n}{r} (-1)^{r-1}= (-1)^{r-1}=0
+                \sum_{r=0}^{n} \binom{n}{r} (-1)^{r-1}= 0
             \end{equation*}
 
             \textit{\textbf{Demostración:}}
-            Del caso especial del Teorema Binomial, teniamos que \((1+x)^n = \sum_{r=0}^{n} \binom{n}{r} x^r\).
+            Partimos del caso especial del Teorema Binomial que demostramos anteriormente:
 
-            Si ahora derivamos la expresión anterior obtenemos que \(n(1+x)^{n-1} = \sum_{r=0}^{n} r \binom{n}{r} x^{r-1}\). Basta sustituir \(x = -1\) y obtenemos el resultado del enunciado.
+            \begin{equation*}
+                (1+x)^n = \sum_{r=0}^{n} \binom{n}{r} x^r
+            \end{equation*}
+
+            Si evaluamos esta expresión para \(x = -1\), obtenemos:
+
+            \begin{equation*}
+                (1 + (-1))^n = \sum_{r=0}^{n} \binom{n}{r} (-1)^r
+            \end{equation*}
+
+            Como \((1 - 1)^n = 0^n = 0\) (dado que \(n\) es positivo), el resultado queda demostrado:
+
+            \begin{equation*}
+                0 = \sum_{r=0}^{n} \binom{n}{r} (-1)^r
+            \end{equation*}
 
         \subsubsection{Triángulo de Pascal}
 
-            El Triángulo de Pascal es una disposición triangular infinita de números enteros. Su regla de construcción es increíblemente sencilla:La cúspide: El triángulo comienza con un único número $1$ en la parte superior (considerada la fila $0$).Los bordes: Todos los números en los extremos izquierdo y derecho del triángulo son siempre $1$.El interior: Cualquier otro número dentro del triángulo se obtiene sumando los dos números que tiene justo encima.Visualmente, las primeras cinco filas (desde $n=0$ hasta $n=4$) se ven así:
+            El Triángulo de Pascal es una disposición triangular infinita de números enteros. Su regla de construcción es increíblemente sencilla: La cúspide: El triángulo comienza con un único número $1$ en la parte superior (considerada la fila $0$). Los bordes: Todos los números en los extremos izquierdo y derecho del triángulo son siempre $1$. El interior: Cualquier otro número dentro del triángulo se obtiene sumando los dos números que tiene justo encima. Visualmente, las primeras cinco filas (desde $n=0$ hasta $n=4$) se ven así:
 
             $$\begin{matrix}
                 & & & & 1 & & & & \\
@@ -294,7 +308,7 @@ Finalmente, cabe destacar que, la combinatoria experimentó una transformación 
             Este esquema se conoce como el triángulo de Pascal. La identidad de Pascal demuestra que, al sumar dos coeficientes binomiales adyacentes en este triángulo, se obtiene como resultado el coeficiente binomial de la fila siguiente situado entre ambos.
 
 \section{Permutaciones}
-    Genéricamente, permutar es: “variar la disposición u orden en que estaban dos o más cosas”. Es necesario precisar si estas cosas son o no indistinguibles, para asegurar que la nueva configuración sea en esencia distinta a la antigua.
+    Genéricamente, permutar es: ``variar la disposición u orden en que estaban dos o más cosas”. Es necesario precisar si estas cosas son o no indistinguibles, para asegurar que la nueva configuración sea en esencia distinta a la antigua.
 
     \subsection{Permutaciones sin repetición}
 
@@ -322,10 +336,10 @@ Finalmente, cabe destacar que, la combinatoria experimentó una transformación 
             Se desea formar un comité de aula para la organización de un evento cultural en un colegio. Dicho comité está formado por tres alumnos que harían las veces de delegado, vocal y secretario. La clase está formada por 40 alumnos. Nos planteamos resolver la siguiente cuestión: ¿de cuántas formas puede constituirse el comité si una persona no puede ocupar más que un cargo?
 
             Como un estudiante no puede tener más que un cargo, el delegado
-            podría ser elegido entre los 40 alumnos de la clase; una vez qué este ha sido elegido, el cargo de vocal podría ser tomado por uno de los 39 alumnos restantes; por último, el cargo de secretario puede ser tomado por uno de los 38 alumnos restantes. Es decir, existen 40 · 39 · 38 formas de constituir el
+            podría ser elegido entre los 40 alumnos de la clase; una vez que este ha sido elegido, el cargo de vocal podría ser tomado por uno de los 39 alumnos restantes; por último, el cargo de secretario puede ser tomado por uno de los 38 alumnos restantes. Es decir, existen 40 · 39 · 38 formas de constituir el
             comité.
 
-            El método descrito puede ser extendido para deteminar el número de
+            El método descrito puede ser extendido para determinar el número de
             comités de k estudiantes que se pueden formar en un aula de \(n\) estudiantes
             \((n \geq k)\):
 
@@ -367,12 +381,12 @@ Finalmente, cabe destacar que, la combinatoria experimentó una transformación 
 
         En las combinaciones, no importa el orden de selección de los individuos, puesto que todos van a desempeñar la misma función: ¿tiene sentido que una persona ocupe dos cargos cuyas funciones son las mismas? El problema no parece tener mucho interés, puesto que si una persona ocupa dos cargos que son iguales, diremos, sencillamente, que debe trabajar ``el doble''. Planteamos a continuación una situación que precisa contar el número de combinaciones con repetición.
 
-        Uno de los logros científicos más importantes de la última década es el descubrimiento del genoma humano. Se sabe que los caracteres hereditarios dependen de los genes que cada sujeto recibe de sus antecesores. El caso más simple, se tiene cuando un gen puede tomar únicamente dos modalidades distintas $A$ y $a$, que se llaman dominante y recesivo, respectivamente. De esta forma, este tipo de genes forman tres tipos de genotipos: $AA$, $Aa$, $aa$ (el genotipo $aA$ es igual al $Aa$). En caso de tener genomas dominantes \(A,\ B,\ \text{y}\ C\) y recesivos \(a,\ b,\ \text{y}\ c\), ¿cuántas combinaciones de pares de genomas podemos obtener?
+        Uno de los logros científicos más importantes de la última década es el descubrimiento del genoma humano. Se sabe que los caracteres hereditarios dependen de los genes que cada sujeto recibe de sus antecesores. El caso más simple, se tiene cuando un gen puede tomar únicamente dos modalidades distintas $A$ y $a$, que se llaman dominante y recesivo, respectivamente. De esta forma, este tipo de genes forman tres tipos de genotipos: $AA$, $Aa$, $aa$ (el genotipo $aA$ es igual al $Aa$). En caso de tener genes dominantes \(A,\ B,\ \text{y}\ C\) y recesivos \(a,\ b,\ \text{y}\ c\), ¿cuántas combinaciones de pares de genes podemos obtener?
 
-        Es fácil ver que tenemos 6 elementos en total y que las combinaciones \(Aa = aA,\ Bb = bB,\dots\) dan un mismo objetos, si los tomamos de dos en dos:
+        Es fácil ver que tenemos 6 elementos en total y que las combinaciones \(Aa = aA,\ Bb = bB,\dots\) dan un mismo objeto, si los tomamos de dos en dos:
 
         \begin{equation*}
-            "Combinaciones\ de\ pares\ de\ genomas" = \binom{6 + 2 - 1}{2} = \binom{7}{2} = 21
+            "Combinaciones\ de\ pares\ de\ genes" = \binom{6 + 2 - 1}{2} = \binom{7}{2} = 21
         \end{equation*}
 
         \textbf{Definición (Combinaciones con repetición):}
@@ -384,9 +398,9 @@ Finalmente, cabe destacar que, la combinatoria experimentó una transformación 
 
 \section{Resumen}
 
-    \begin{figure}[ht]
+    \begin{figure}[h]
         \centering
-           \includegraphics[width=1\textwidth]{Captura de pantalla 2026-03-20 134656.png}
+           \includegraphics[width=0.8\textwidth]{Captura de pantalla 2026-03-20 134656.png}
     \end{figure}
 
 \section{Conclusión}

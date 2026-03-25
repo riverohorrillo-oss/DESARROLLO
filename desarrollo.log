@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.11.5)  25 MAR 2026 18:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.11.5)  25 MAR 2026 18:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -819,14 +819,14 @@ l.78 \newpage
 <Captura de pantalla 2026-03-25 180219.png, id=173, 788.19469pt x 456.95718pt>
 File: Captura de pantalla 2026-03-25 180219.png Graphic file (type png)
 <use Captura de pantalla 2026-03-25 180219.png>
-Package pdftex.def Info: Captura de pantalla 2026-03-25 180219.png  used on input line 285.
+Package pdftex.def Info: Captura de pantalla 2026-03-25 180219.png  used on input line 299.
 (pdftex.def)             Requested size: 386.95897pt x 224.3363pt.
- [8 <./Captura de pantalla 2026-03-25 180219.png>] [9] [10] [11]
+ [8] [9 <./Captura de pantalla 2026-03-25 180219.png>] [10] [11]
 <Captura de pantalla 2026-03-20 134656.png, id=195, 1096.095pt x 755.07094pt>
 File: Captura de pantalla 2026-03-20 134656.png Graphic file (type png)
 <use Captura de pantalla 2026-03-20 134656.png>
-Package pdftex.def Info: Captura de pantalla 2026-03-20 134656.png  used on input line 389.
-(pdftex.def)             Requested size: 483.69687pt x 333.21156pt.
+Package pdftex.def Info: Captura de pantalla 2026-03-20 134656.png  used on input line 403.
+(pdftex.def)             Requested size: 386.95897pt x 266.57155pt.
  [12 <./Captura de pantalla 2026-03-20 134656.png>] [13] (desarrollo.bbl) [14] (desarrollo.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
@@ -841,13 +841,13 @@ Package rerunfilecheck Info: File `desarrollo.out' has not changed.
 Here is how much of TeX's memory you used:
  27457 strings out of 474486
  504788 string characters out of 5740887
- 1940542 words of memory out of 5000000
+ 1943542 words of memory out of 5000000
  49159 multiletter control sequences out of 15000+600000
  569516 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,9n,93p,3373b,472s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\ÁLVARO R.H\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/yhmath/yhcmex.pfb>
-Output written on desarrollo.pdf (15 pages, 477560 bytes).
+Output written on desarrollo.pdf (15 pages, 477422 bytes).
 PDF statistics:
  303 PDF objects out of 1000 (max. 8388607)
  49 named destinations out of 1000 (max. 500000)

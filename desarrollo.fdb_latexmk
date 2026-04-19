@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex desarrollo"] 1774460694.37173 "desarrollo.aux" "desarrollo.bbl" "desarrollo" 1774461240.07197 0
+["bibtex desarrollo"] 1776241185.41778 "desarrollo.aux" "desarrollo.bbl" "desarrollo" 1776241190.38155 0
   "./bibliografia.bib" 1774010500 940 f164d23f2f0181025ad4044778284541 ""
   "C:/Users/Ã�LVARO R.H/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/plain.bst" 0 -1 0 ""
-  "desarrollo.aux" 1774461239 3456 fc65b33fa131185d762c9155e200834e "pdflatex"
+  "desarrollo.aux" 1776241189 3451 d2897750f4f2294a9f66a6cbcfaf2441 "pdflatex"
   (generated)
   "desarrollo.bbl"
   "desarrollo.blg"
   (rewritten before read)
-["pdflatex"] 1774461236.35949 "c:/Users/ÁLVARO R.H/Desktop/UNIVERSIDAD/CURSO 25-26/LAS MATEMÁTICAS EN LA ENSEÑANZA SECUNDARIA/TRABAJO ESTADÍTICA/DESARROLLO/desarrollo.tex" "desarrollo.pdf" "desarrollo" 1774461240.07246 0
+["pdflatex"] 1776241185.72884 "c:/Users/ÁLVARO R.H/Desktop/UNIVERSIDAD/CURSO 25-26/LAS MATEMÁTICAS EN LA ENSEÑANZA SECUNDARIA/TRABAJO ESTADÍTICA/DESARROLLO/desarrollo.tex" "desarrollo.pdf" "desarrollo" 1776241190.38236 0
   "C:/Users/ÁLVARO R.H/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1772563790 82165 3fda6b6075f4ababe2c97b6e5b66f47b ""
   "C:/Users/ÁLVARO R.H/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1770923115 14064 a4eb07817b5e3c7ebf21920846c6d72c ""
   "C:/Users/ÁLVARO R.H/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1762361302 24227914 c7344fccaec4f556aa5bbdc1e1f73e9c ""
@@ -58,7 +58,6 @@
   "C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb" 1247596667 32587 65067f817f408bc71a7312f3d9828a9b ""
   "C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1247596667 32626 5abc8bb2f28aa647d4c70f8ea38cc0d3 ""
   "C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb" 1247596667 36118 fad905eba93cff5bce1e185fe980a177 ""
-  "C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1247596673 34694 870c211f62cb72718a00e353f14f254d ""
   "C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/type1/public/yhmath/yhcmex.pfb" 1548297500 29149 255c816a3ea115011c5f5da65478689c ""
   "C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/fonts/vf/public/yhmath/yhcmex10.vf" 1584439855 2112 d9f61c10dc1066e46e90384e3419c5ee ""
   "C:/Users/ÁLVARO R.H/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mkii" 1580390158 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -239,12 +238,12 @@
   "Captura de pantalla 2026-03-25 180219.png" 1774458139 108667 c0600e29ba91c23f6c47dfb749898da8 ""
   "archivos/cabecera.tex" 1771872293 557 dc88edefbb0d700f820091af811181ac ""
   "archivos/variables.tex" 1771872330 412 ed7a8353114b53f98334734fe7c200ad ""
-  "c:/Users/ÁLVARO R.H/Desktop/UNIVERSIDAD/CURSO 25-26/LAS MATEMÁTICAS EN LA ENSEÑANZA SECUNDARIA/TRABAJO ESTADÍTICA/DESARROLLO/desarrollo.tex" 1774461234 35021 d3a066e25c7366b65e27d67fce514cc3 ""
-  "desarrollo.aux" 1774461239 3456 fc65b33fa131185d762c9155e200834e "pdflatex"
-  "desarrollo.bbl" 1774460694 823 b5cb5791f204891932ed96b93f3c3012 "bibtex desarrollo"
-  "desarrollo.out" 1774461239 3960 dbd7b3bcbb7e9f1d61b35a49ec9d7277 "pdflatex"
-  "desarrollo.tex" 1774461234 35021 d3a066e25c7366b65e27d67fce514cc3 ""
-  "desarrollo.toc" 1774461239 2026 3b5d202167cae2b3d45d59d35c64af81 "pdflatex"
+  "c:/Users/ÁLVARO R.H/Desktop/UNIVERSIDAD/CURSO 25-26/LAS MATEMÁTICAS EN LA ENSEÑANZA SECUNDARIA/TRABAJO ESTADÍTICA/DESARROLLO/desarrollo.tex" 1776241180 35105 e407d12a4ef3b228b288ee2b0bb17886 ""
+  "desarrollo.aux" 1776241189 3451 d2897750f4f2294a9f66a6cbcfaf2441 "pdflatex"
+  "desarrollo.bbl" 1776241185 823 b5cb5791f204891932ed96b93f3c3012 "bibtex desarrollo"
+  "desarrollo.out" 1776241189 3960 dbd7b3bcbb7e9f1d61b35a49ec9d7277 "pdflatex"
+  "desarrollo.tex" 1776241180 35105 e407d12a4ef3b228b288ee2b0bb17886 ""
+  "desarrollo.toc" 1776241189 2021 d386d3c3aab8bc9f46c2944391322b69 "pdflatex"
   "logos/marca_UEx_4_color.png" 1762866769 49122 a3295554180dc3519f27e091b52d732f ""
   (generated)
   "desarrollo.aux"

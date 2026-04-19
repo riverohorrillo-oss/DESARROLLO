@@ -111,9 +111,9 @@ Finalmente, cabe destacar que, la combinatoria experimentó una transformación 
             \left|A_1 \cup \dots \cup A_n\right| = \left|A_1\right| + \left|A_2\right| + \cdots + \left|A_n\right|
         \end{equation*}
 
-        \textit{\textbf{Demostración:}}
-        Procederemos por inducción. Sea entonces $n=2$. Sean $A_1, A_2$ con\\
-        $A_1 \cap A_2 = \emptyset$. Si $A_1$ y $A_2$ tienen $r$ y $k$ elementos respectivamente: $A_1 = \{a_1, a_2, \dots, a_r\}$ y $A_2 = \{b_1, b_2, \dots, b_k\}$, entonces $A_1 \cup A_2 = \{a_1, a_2, \dots, a_r, b_1, b_2, \dots, b_k\}$. Obviamente $|A_1 \cup A_2| = r + k$, y con ello $|A_1 \cup A_2| = |A_1| + |A_2|$. Supongámoslo cierto para $n$, y comprobémoslo para $n+1$. Sean $A_1, A_2, \dots, A_n, A_{n+1}$ disjuntos dos a dos, $A_i \cap A_j = \emptyset$, para todo $i, j \in \{1, 2, \dots, n, n+1\}, i \neq j$.$$A_1 \cup A_2 \cup \dots \cup A_n \cup A_{n+1} = (A_1 \cup A_2 \cup \dots \cup A_n) \cup A_{n+1}$$luego,$$\bigcup_{i=1}^{n+1} A_i = \left(\bigcup_{i=1}^n A_i\right) \cup A_{n+1}$$Pero $A_{n+1} \cap \left(\bigcup_{i=1}^n A_i\right) = \emptyset$ y si aplicamos además la hipótesis de inducción, resulta que:$$\left|\bigcup_{i=1}^{n+1} A_i\right| = \left|\bigcup_{i=1}^n A_i\right| + |A_{n+1}| = \sum_{i=1}^n |A_i| + |A_{n+1}| = \sum_{i=1}^{n+1} |A_i|$$
+        %\textit{\textbf{Demostración:}}
+        %Procederemos por inducción. Sea entonces $n=2$. Sean $A_1, A_2$ con\\
+        %$A_1 \cap A_2 = \emptyset$. Si $A_1$ y $A_2$ tienen $r$ y $k$ elementos respectivamente: $A_1 = \{a_1, a_2, \dots, a_r\}$ y $A_2 = \{b_1, b_2, \dots, b_k\}$, entonces $A_1 \cup A_2 = \{a_1, a_2, \dots, a_r, b_1, b_2, \dots, b_k\}$. Obviamente $|A_1 \cup A_2| = r + k$, y con ello $|A_1 \cup A_2| = |A_1| + |A_2|$. Supongámoslo cierto para $n$, y comprobémoslo para $n+1$. Sean $A_1, A_2, \dots, A_n, A_{n+1}$ disjuntos dos a dos, $A_i \cap A_j = \emptyset$, para todo $i, j \in \{1, 2, \dots, n, n+1\}, i \neq j$.$$A_1 \cup A_2 \cup \dots \cup A_n \cup A_{n+1} = (A_1 \cup A_2 \cup \dots \cup A_n) \cup A_{n+1}$$luego,$$\bigcup_{i=1}^{n+1} A_i = \left(\bigcup_{i=1}^n A_i\right) \cup A_{n+1}$$Pero $A_{n+1} \cap \left(\bigcup_{i=1}^n A_i\right) = \emptyset$ y si aplicamos además la hipótesis de inducción, resulta que:$$\left|\bigcup_{i=1}^{n+1} A_i\right| = \left|\bigcup_{i=1}^n A_i\right| + |A_{n+1}| = \sum_{i=1}^n |A_i| + |A_{n+1}| = \sum_{i=1}^{n+1} |A_i|$$
 
     \subsection{Principio de Multiplicación}
 
@@ -123,15 +123,15 @@ Finalmente, cabe destacar que, la combinatoria experimentó una transformación 
         \textbf{Teorema:}
         Sean $A_1, \dots, A_n$ conjuntos no vacíos y finitos. Se cumple que:$$|A_1 \times A_2 \times \dots \times A_n| = |A_1| \cdot |A_2| \dots |A_n|$$denotando por $\times$ el producto cartesiano de los $A_i$.
 
-        \textbf{\textit{Demostración:}}
-        Procederemos por inducción. Sea $n=2$. Sean $A_1, A_2$ dos conjuntos finitos y no vacíos. Siendo $A_1 = \{a_1, a_2, \dots, a_r\}$ y $A_2 = \{b_1, b_2, \dots, b_k\}$. Por definición de producto cartesiano:$$A_1 \times A_2 = \{(a,b) : a \in A_1, b \in A_2\}$$O lo que es lo mismo:$$A_1 \times A_2 = \{(a_1,b_1), (a_1,b_2), \dots, (a_1,b_k), (a_2,b_1), \dots, (a_2,b_k), \dots, (a_r,b_1), \dots, (a_r,b_k)\}$$Es claro que para cada $i \in \{1, 2, \dots, r\}$, tendremos $(a_i,b_1), (a_i,b_2), \dots, (a_i,b_k)$, es decir, $k$ pares. Como esto se puede hacer con cada uno de los elementos de $A_1$, obtendremos $r \cdot k$ pares distintos. Por tanto:$$|A_1 \times A_2| = r \cdot k = |A_1| \cdot |A_2|$$Supongamos cierto para $n$. Consideremos $A_1, A_2, \dots, A_n, A_{n+1}$ en las condiciones del teorema. Sabemos que:$$A_1 \times A_2 \times \dots \times A_{n+1} = (A_1 \times A_2 \times \dots \times A_n) \times A_{n+1}$$y con ello, calculando su cardinal y aplicando la hipótesis de inducción, obtenemos:$$|A_1 \times A_2 \times \dots \times A_{n+1}| = |A_1 \times A_2 \times \dots \times A_n| \cdot |A_{n+1}| = \left( \prod_{i=1}^n |A_i| \right) \cdot |A_{n+1}| = \prod_{i=1}^{n+1} |A_i|$$
+        %\textbf{\textit{Demostración:}}
+        %Procederemos por inducción. Sea $n=2$. Sean $A_1, A_2$ dos conjuntos finitos y no vacíos. Siendo $A_1 = \{a_1, a_2, \dots, a_r\}$ y $A_2 = \{b_1, b_2, \dots, b_k\}$. Por definición de producto cartesiano:$$A_1 \times A_2 = \{(a,b) : a \in A_1, b \in A_2\}$$O lo que es lo mismo:$$A_1 \times A_2 = \{(a_1,b_1), (a_1,b_2), \dots, (a_1,b_k), (a_2,b_1), \dots, (a_2,b_k), \dots, (a_r,b_1), \dots, (a_r,b_k)\}$$Es claro que para cada $i \in \{1, 2, \dots, r\}$, tendremos $(a_i,b_1), (a_i,b_2), \dots, (a_i,b_k)$, es decir, $k$ pares. Como esto se puede hacer con cada uno de los elementos de $A_1$, obtendremos $r \cdot k$ pares distintos. Por tanto:$$|A_1 \times A_2| = r \cdot k = |A_1| \cdot |A_2|$$Supongamos cierto para $n$. Consideremos $A_1, A_2, \dots, A_n, A_{n+1}$ en las condiciones del teorema. Sabemos que:$$A_1 \times A_2 \times \dots \times A_{n+1} = (A_1 \times A_2 \times \dots \times A_n) \times A_{n+1}$$y con ello, calculando su cardinal y aplicando la hipótesis de inducción, obtenemos:$$|A_1 \times A_2 \times \dots \times A_{n+1}| = |A_1 \times A_2 \times \dots \times A_n| \cdot |A_{n+1}| = \left( \prod_{i=1}^n |A_i| \right) \cdot |A_{n+1}| = \prod_{i=1}^{n+1} |A_i|$$
 
     \subsection{Principio del Palomar}
 
         Antes de introducir el conocido Principio del Palomar, debemos entender lo que es una función inyectiva.\\
         Se dice que una función \(f:X \rightarrow Y\), donde \(X\) e \(Y\) son conjuntos arbitrarios, es inyectiva cuando \(f(x) \neq f(x')\) para todo \(x,x' \in X\) con \(x \neq x'\). Cuando \(f:X \rightarrow Y\) es inyectiva, debemos hacer notar que \(|X| \leq |Y|\). En cambio, tenemos la siguiente afirmación evidente, conocida popularmente como el Principio del Palomar.
 
-        \textbf{Proposición:}
+        \textbf{Proposición (Principio del Palomar):}
         Si \(f:X \rightarrow Y\) es una función y \(|X| > |Y|\), entonces existe un elemento \(y \in Y\) y elementos distintos \(x,x' \in X\) tales que \(f(x) = f(x') = y\).
 
         Hablando coloquialmente, si tenemos que repartir \(n+1\) palomas en \(n\) nidos, entonces tenemos que poner dos palomas en el mismo nido.
@@ -157,8 +157,8 @@ Finalmente, cabe destacar que, la combinatoria experimentó una transformación 
         \textbf{Teorema (Principio de Inclusión-Exclusión):}
         El número de elementos de un conjunto $X$ que no cumplen ninguna de las propiedades en un conjunto $P$ de $m$ propiedades viene dado por:$$\sum_{S \subseteq [m]} (-1)^{|S|} N(S)$$Donde $N(S)$ representa el número de elementos que cumplen simultáneamente las propiedades indicadas por el índice $S$.
         
-        \textbf{\textit{Demostración:}}
-        Procedemos por inducción sobre el número $m$ de propiedades. Si $m=1$, entonces la fórmula se reduce a $N(\emptyset) - N(\{1\})$. Esto es correcto, ya que establece simplemente que el número de elementos que no cumplen la propiedad $P_1$ es el número total de elementos menos el número de aquellos que sí cumplen la propiedad $P_1$. Supongamos ahora que se cumple para $m=k$ para algún $k \ge 1$ y consideremos el caso en que $m=k+1$. Sean $X' = \{x \in X : x \text{ cumple } P_{k+1}\}$ y $X'' = X \setminus X'$ (es decir, $X''$ es el conjunto de elementos que no cumplen $P_{k+1}$). Ahora, sea $Q = \{P_1, P_2, \dots, P_k\}$. Para cada subconjunto $S \subseteq [k]$, sea $N'(S)$ la cantidad de elementos de $X'$ que cumplen la propiedad $P_i$ para todo $i \in S$. Asimismo, sea $N''(S)$ la cantidad de elementos de $X''$ que cumplen la propiedad $P_i$ para cada $i \in S$. Obsérvese que $N(S) = N'(S) + N''(S)$ para cada $S \subseteq [k]$. Sea $X'_0$ el conjunto de elementos en $X'$ que no cumplen ninguna de las propiedades en $Q$ (en otras palabras, aquellos que cumplen únicamente $P_{k+1}$ de todas las propiedades $P$), y sea $X''_0$ el conjunto de elementos de $X''$ que no cumplen ninguna de las propiedades en $Q$ y, por lo tanto, ninguna de las propiedades en $P$. Por la hipótesis de inducción, sabemos que:$$|X'_0| = \sum_{S \subseteq [k]} (-1)^{|S|} N'(S) \quad \text{y} \quad |X''_0| = \sum_{S \subseteq [k]} (-1)^{|S|} N''(S)$$De lo anterior se deduce que:
+        %\textbf{\textit{Demostración:}}
+        %Procedemos por inducción sobre el número $m$ de propiedades. Si $m=1$, entonces la fórmula se reduce a $N(\emptyset) - N(\{1\})$. Esto es correcto, ya que establece simplemente que el número de elementos que no cumplen la propiedad $P_1$ es el número total de elementos menos el número de aquellos que sí cumplen la propiedad $P_1$. Supongamos ahora que se cumple para $m=k$ para algún $k \ge 1$ y consideremos el caso en que $m=k+1$. Sean $X' = \{x \in X : x \text{ cumple } P_{k+1}\}$ y $X'' = X \setminus X'$ (es decir, $X''$ es el conjunto de elementos que no cumplen $P_{k+1}$). Ahora, sea $Q = \{P_1, P_2, \dots, P_k\}$. Para cada subconjunto $S \subseteq [k]$, sea $N'(S)$ la cantidad de elementos de $X'$ que cumplen la propiedad $P_i$ para todo $i \in S$. Asimismo, sea $N''(S)$ la cantidad de elementos de $X''$ que cumplen la propiedad $P_i$ para cada $i \in S$. Obsérvese que $N(S) = N'(S) + N''(S)$ para cada $S \subseteq [k]$. Sea $X'_0$ el conjunto de elementos en $X'$ que no cumplen ninguna de las propiedades en $Q$ (en otras palabras, aquellos que cumplen únicamente $P_{k+1}$ de todas las propiedades $P$), y sea $X''_0$ el conjunto de elementos de $X''$ que no cumplen ninguna de las propiedades en $Q$ y, por lo tanto, ninguna de las propiedades en $P$. Por la hipótesis de inducción, sabemos que:$$|X'_0| = \sum_{S \subseteq [k]} (-1)^{|S|} N'(S) \quad \text{y} \quad |X''_0| = \sum_{S \subseteq [k]} (-1)^{|S|} N''(S)$$De lo anterior se deduce que:
         
         $$\begin{aligned}
             |X''_0| &= \sum_{S \subseteq [k]} (-1)^{|S|} N''(S) \\
@@ -229,8 +229,8 @@ Finalmente, cabe destacar que, la combinatoria experimentó una transformación 
                 (1+x)^n = \sum_{r=0}^{n} \binom{n}{r} x^r
             \end{equation*}
 
-            \textit{\textbf{Demostración:}}
-            Consideremos la expresión $(a+b)^n$ como el producto de $n$ factores binómicos: $$(a+b)^n = \prod_{i=1}^n (a+b)_i = (a+b)_1(a+b)_2 \cdots (a+b)_n$$Al realizar el desarrollo de este producto mediante la propiedad distributiva, cada término del sumatorio final se obtiene seleccionando exactamente uno de los dos sumandos ($a$ o $b$) de cada uno de los $n$ factores. Un término genérico de este desarrollo tendrá la forma $a^r b^{n-r}$, lo cual implica que se ha seleccionado el elemento $a$ en exactamente $r$ de los $n$ factores disponibles, y consecuentemente se ha seleccionado el elemento $b$ en los $n-r$ factores restantes. El coeficiente del término $a^r b^{n-r}$ vendrá determinado por el número de formas distintas en que podemos elegir los $r$ factores de los cuales extraeremos la variable $a$. Por definición de coeficiente binomial, el número de subconjuntos de tamaño $r$ que pueden extraerse de un conjunto de $n$ elementos (en este caso, el conjunto de los $n$ paréntesis) es $\binom{n}{r}$. Por tanto, sumando todas las posibilidades para cada valor posible de $r$ desde $0$ hasta $n$, obtenemos la expresión:$$(a+b)^n = \binom{n}{0}b^n + \binom{n}{1}ab^{n-1} + \cdots + \binom{n}{n}a^n = \sum_{r=0}^n \binom{n}{r} a^r b^{n-r}.$$Si ahora definimos $a=x$ y $b=1$, obtenemos:$$(x+1)^n = \sum_{r=0}^n \binom{n}{r} x^r \cdot 1^{n-r}$$y dado que el elemento unidad $1$ elevado a cualquier potencia entera $n-r$ es igual a $1$, y considerando la conmutatividad de la suma en $\mathbb{R}$ tal que $(x+1)^n = (1+x)^n$, la expresión queda simplificada como:$$(1+x)^n = \sum_{r=0}^n \binom{n}{r} x^r.$$
+            %\textit{\textbf{Demostración:}}
+            %Consideremos la expresión $(a+b)^n$ como el producto de $n$ factores binómicos: $$(a+b)^n = \prod_{i=1}^n (a+b)_i = (a+b)_1(a+b)_2 \cdots (a+b)_n$$Al realizar el desarrollo de este producto mediante la propiedad distributiva, cada término del sumatorio final se obtiene seleccionando exactamente uno de los dos sumandos ($a$ o $b$) de cada uno de los $n$ factores. Un término genérico de este desarrollo tendrá la forma $a^r b^{n-r}$, lo cual implica que se ha seleccionado el elemento $a$ en exactamente $r$ de los $n$ factores disponibles, y consecuentemente se ha seleccionado el elemento $b$ en los $n-r$ factores restantes. El coeficiente del término $a^r b^{n-r}$ vendrá determinado por el número de formas distintas en que podemos elegir los $r$ factores de los cuales extraeremos la variable $a$. Por definición de coeficiente binomial, el número de subconjuntos de tamaño $r$ que pueden extraerse de un conjunto de $n$ elementos (en este caso, el conjunto de los $n$ paréntesis) es $\binom{n}{r}$. Por tanto, sumando todas las posibilidades para cada valor posible de $r$ desde $0$ hasta $n$, obtenemos la expresión:$$(a+b)^n = \binom{n}{0}b^n + \binom{n}{1}ab^{n-1} + \cdots + \binom{n}{n}a^n = \sum_{r=0}^n \binom{n}{r} a^r b^{n-r}.$$Si ahora definimos $a=x$ y $b=1$, obtenemos:$$(x+1)^n = \sum_{r=0}^n \binom{n}{r} x^r \cdot 1^{n-r}$$y dado que el elemento unidad $1$ elevado a cualquier potencia entera $n-r$ es igual a $1$, y considerando la conmutatividad de la suma en $\mathbb{R}$ tal que $(x+1)^n = (1+x)^n$, la expresión queda simplificada como:$$(1+x)^n = \sum_{r=0}^n \binom{n}{r} x^r.$$
 
             \textbf{Corolario:}
             Para cualquier número natural \(n\), tenemos que:
@@ -239,8 +239,10 @@ Finalmente, cabe destacar que, la combinatoria experimentó una transformación 
                 \sum_{r=0}^{n} \binom{n}{r} = 2^n
             \end{equation*}
 
-            \textit{\textbf{Demostración:}}
-            Es consecuencia inmediata de sustituir \(a=b=1\) en el Teorema Binomial.
+            %\textit{\textbf{Demostración:}}
+            %Es consecuencia inmediata de sustituir \(a=b=1\) en el Teorema Binomial.
+
+            \newpage
 
             \textbf{Corolario:}
             Para cualquier número natural positivo \(n\), se tiene que:
@@ -249,24 +251,24 @@ Finalmente, cabe destacar que, la combinatoria experimentó una transformación 
                 \sum_{r=0}^{n} \binom{n}{r} (-1)^{r-1}= 0
             \end{equation*}
 
-            \textit{\textbf{Demostración:}}
-            Partimos del caso especial del Teorema Binomial que demostramos anteriormente:
+            %\textit{\textbf{Demostración:}}
+            %Partimos del caso especial del Teorema Binomial que demostramos anteriormente:
 
-            \begin{equation*}
-                (1+x)^n = \sum_{r=0}^{n} \binom{n}{r} x^r
-            \end{equation*}
+            %\begin{equation*}
+            %    (1+x)^n = \sum_{r=0}^{n} \binom{n}{r} x^r
+            %\end{equation*}
 
-            Si evaluamos esta expresión para \(x = -1\), obtenemos:
+            %Si evaluamos esta expresión para \(x = -1\), obtenemos:
 
-            \begin{equation*}
-                (1 + (-1))^n = \sum_{r=0}^{n} \binom{n}{r} (-1)^r
-            \end{equation*}
+            %\begin{equation*}
+            %    (1 + (-1))^n = \sum_{r=0}^{n} \binom{n}{r} (-1)^r
+            %\end{equation*}
 
-            Como \((1 - 1)^n = 0^n = 0\) (dado que \(n\) es positivo), el resultado queda demostrado:
+            %Como \((1 - 1)^n = 0^n = 0\) (dado que \(n\) es positivo), el resultado queda demostrado:
 
-            \begin{equation*}
-                0 = \sum_{r=0}^{n} \binom{n}{r} (-1)^r
-            \end{equation*}
+            %\begin{equation*}
+            %    0 = \sum_{r=0}^{n} \binom{n}{r} (-1)^r
+            %\end{equation*}
 
         \subsubsection{Triángulo de Pascal}
 
@@ -395,6 +397,8 @@ Finalmente, cabe destacar que, la combinatoria experimentó una transformación 
         \begin{equation*}
             CR_n^k = \binom{n+k-1}{k}
         \end{equation*}
+
+\newpage
 
 \section{Resumen}
 
